@@ -1,0 +1,245 @@
+RUN AfterCloseGetPMThrowsException.test	
+RUN AfterCloseSetMethodsThrowException.test	
+RUN AfterGetPersistenceManagerNoSetMethodsSucceed.testGetPersistenceManagerWithNoParametes	
+RUN AfterGetPersistenceManagerNoSetMethodsSucceed.testGetPersistenceManagerWithParameters	
+RUN Close.test	
+RUN CloseFailsIfTransactionActive.test	
+RUN CloseWithoutPermissionThrowsSecurityException.test	
+RUN FlushThrowsIfReadOnly.testDeletePersistent	
+RUN FlushThrowsIfReadOnly.testMakePersistent	
+RUN FlushThrowsIfReadOnly.testUpdate	
+RUN GetManagedClasses.test	
+RUN GetPMFByFile.testInvalidGetPMF	
+RUN GetPMFByFile.testValidGetPMF	
+RUN GetPMFByFileAndClassLoader.testInvalidGetPMF	
+RUN GetPMFByFileAndClassLoader.testValidGetPMF	
+RUN GetPMFByResource.testInvalidGetPMF	
+RUN GetPMFByResource.testValidGetPMF	
+RUN GetPMFByResourceAndClassLoader.testInvalidGetPMF	
+RUN GetPMFByResourceAndClassLoader.testValidGetPMF	
+RUN GetPMFByStream.testInvalidGetPMF	
+RUN GetPMFByStream.testValidGetPMF	
+RUN GetPMFByStreamAndClassLoader.testInvalidGetPMF	
+RUN GetPMFByStreamAndClassLoader.testValidGetPMF	
+RUN GetPMFByJNDILocation.testInvalidGetPMF	   ERROR
+RUN GetPMFByJNDILocation.testValidGetPMF	   ERROR
+RUN GetPMFByJNDILocationAndClassLoader.testInvalidGetPMF	   ERROR
+RUN GetPMFByJNDILocationAndClassLoader.testValidGetPMF	   ERROR
+RUN GetPersistenceManager.test	
+RUN GetPersistenceManagerFactoryByPropertiesInstance.test	
+RUN GetPersistenceManagerForUser.test	
+RUN GetProperties.test	
+RUN SetConnectionPassword.test	
+RUN SetConnectionURL.test	
+RUN SetConnectionUserName.test	
+RUN SetIgnoreCache.test	
+RUN SetMultithreaded.test	
+RUN SetNonTransactionalRead.test	
+RUN SetNonTransactionalWrite.test	
+RUN SetOptimistic.test	
+RUN SetReadOnly.test	
+RUN SetRetainValues.test	
+RUN SetTransactionIsolationLevel.testSetTransactionIsolationLevelFromProperties	
+RUN SetTransactionIsolationLevel.testTransactionIsolationLevelReadCommittedSupported	
+RUN SetTransactionIsolationLevel.testSetTransactionIsolationLevelByAPI	
+RUN SupportedOptions.test	
+RUN Jdoconfig.testGetPMFNamedOverrides	
+RUN Jdoconfig.testGetPMFEmptyString	
+RUN Jdoconfig.testGetPMFNull	
+RUN Jdoconfig.testGetPMFNamedSpacesOverrides	
+RUN Jdoconfig.testGetPMFNullOverrides	
+RUN Jdoconfig.testGetPMFStringSpace	
+RUN Jdoconfig.testGetPMFNamed	
+RUN Jdoconfig.testGetPMFEmptyStringOverrides	
+RUN Jdoconfig.testGetPMFNoArgs	
+RUN Jdoconfig.testGetPMFStringSpaceOverrides	
+RUN Persistence.testGetPMFfromNamedPUWithNullOverrides	
+RUN Persistence.testGetPMFfromNamedPUWithEmptyOverrides	
+RUN Persistence.testGetPMFfromNamedPUWithWhiteSpace	
+RUN Persistence.testGetPMFfromNamedPUWithOverrides	
+RUN Persistence.testGetPMFfromNamedPU	
+RUN JDOConfigListener.testPCPointListenerNullClasses	
+RUN JDOConfigListener.testPCPointListenerGetInstance	
+RUN JDOConfigListener.testPCPointListener	
+RUN JDOConfigListener.testPCPointListenerOverrides	
+RUN GetMetadataTest.testInvalidName	
+RUN GetMetadataTest.testAbstractClassName	
+RUN GetMetadataTest.testConcreteClassName	
+RUN GetMetadataTest.testNullParameter	
+Description: null
+Time: 035
+There were 4 errors:
+1) testInvalidGetPMF(org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation)javax.jdo.JDOFatalException: Caught NamingException trying to bind Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.getPMF(GetPMFByJNDILocation.java:106)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithInvalidProperties(AbstractGetPMF.java:117)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.testInvalidGetPMF(GetPMFByJNDILocation.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+NestedThrowablesStackTrace:
+javax.naming.NoInitialContextException: Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory [Root exception is java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory]
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:760)
+	at java.naming/javax.naming.spi.NamingManager.lambda$getInitialContext$1(NamingManager.java:722)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue$Memoizer.get(AbstractClassLoaderValue.java:329)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue.computeIfAbsent(AbstractClassLoaderValue.java:205)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:722)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:184)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.getPMF(GetPMFByJNDILocation.java:96)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithInvalidProperties(AbstractGetPMF.java:117)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.testInvalidGetPMF(GetPMFByJNDILocation.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+Caused by: java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:127)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:133)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:96)
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:757)
+	... 28 more
+2) testValidGetPMF(org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation)javax.jdo.JDOFatalException: Caught NamingException trying to bind Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.getPMF(GetPMFByJNDILocation.java:106)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithValidProperties(AbstractGetPMF.java:133)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.testValidGetPMF(GetPMFByJNDILocation.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+NestedThrowablesStackTrace:
+javax.naming.NoInitialContextException: Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory [Root exception is java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory]
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:760)
+	at java.naming/javax.naming.spi.NamingManager.lambda$getInitialContext$1(NamingManager.java:722)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue$Memoizer.get(AbstractClassLoaderValue.java:329)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue.computeIfAbsent(AbstractClassLoaderValue.java:205)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:722)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:184)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.getPMF(GetPMFByJNDILocation.java:96)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithValidProperties(AbstractGetPMF.java:133)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocation.testValidGetPMF(GetPMFByJNDILocation.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+Caused by: java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:127)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:133)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:96)
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:757)
+	... 28 more
+3) testInvalidGetPMF(org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader)javax.jdo.JDOFatalException: 
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.getPMF(GetPMFByJNDILocationAndClassLoader.java:105)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithInvalidProperties(AbstractGetPMF.java:117)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.testInvalidGetPMF(GetPMFByJNDILocationAndClassLoader.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+NestedThrowablesStackTrace:
+javax.naming.NoInitialContextException: Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory [Root exception is java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory]
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:760)
+	at java.naming/javax.naming.spi.NamingManager.lambda$getInitialContext$1(NamingManager.java:722)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue$Memoizer.get(AbstractClassLoaderValue.java:329)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue.computeIfAbsent(AbstractClassLoaderValue.java:205)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:722)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:184)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.getPMF(GetPMFByJNDILocationAndClassLoader.java:96)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithInvalidProperties(AbstractGetPMF.java:117)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.testInvalidGetPMF(GetPMFByJNDILocationAndClassLoader.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+Caused by: java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:127)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:133)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:96)
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:757)
+	... 28 more
+4) testValidGetPMF(org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader)javax.jdo.JDOFatalException: 
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.getPMF(GetPMFByJNDILocationAndClassLoader.java:105)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithValidProperties(AbstractGetPMF.java:133)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.testValidGetPMF(GetPMFByJNDILocationAndClassLoader.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+NestedThrowablesStackTrace:
+javax.naming.NoInitialContextException: Cannot instantiate class: com.sun.jndi.fscontext.RefFSContextFactory [Root exception is java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory]
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:760)
+	at java.naming/javax.naming.spi.NamingManager.lambda$getInitialContext$1(NamingManager.java:722)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue$Memoizer.get(AbstractClassLoaderValue.java:329)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue.computeIfAbsent(AbstractClassLoaderValue.java:205)
+	at java.naming/javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:722)
+	at java.naming/javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at java.naming/javax.naming.InitialContext.init(InitialContext.java:236)
+	at java.naming/javax.naming.InitialContext.<init>(InitialContext.java:184)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.getPMF(GetPMFByJNDILocationAndClassLoader.java:96)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.AbstractGetPMF.checkGetPMFWithValidProperties(AbstractGetPMF.java:133)
+	at org.apache.jdo.tck.api.persistencemanagerfactory.GetPMFByJNDILocationAndClassLoader.testValidGetPMF(GetPMFByJNDILocationAndClassLoader.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278)
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124)
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169)
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140)
+Caused by: java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:127)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:133)
+	at java.naming/com.sun.naming.internal.VersionHelper.loadClass(VersionHelper.java:96)
+	at java.naming/javax.naming.spi.NamingManager.getFactory(NamingManager.java:757)
+	... 28 more
+FAILURES!!!
+Error summary:
+004 errors: java.lang.ClassNotFoundException: com.sun.jndi.fscontext.RefFSContextFactory
+app-pmf-junit.txt:
+    ** Tests run: 068, Time: 035 seconds. Failures: 0, Errors: 4
+Excluded tests: 

@@ -1,0 +1,2012 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ * 
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+
+public interface javax.jdo.Constants {
+    static String JAVAX_JDO = "javax.jdo";
+    static String JAVAX_JDO_PREFIX = "javax.jdo.";
+    static String SERVICE_LOOKUP_PMF_RESOURCE_NAME
+        = "META-INF/services/javax.jdo.PersistenceManagerFactory";
+    static String SERVICE_LOOKUP_ENHANCER_RESOURCE_NAME
+        = "META-INF/services/javax.jdo.JDOEnhancer";
+    static String JDOCONFIG_RESOURCE_NAME
+        = "META-INF/jdoconfig.xml";
+    static String JDOCONFIG_XSD_NS
+        = "https://db.apache.org/jdo/xmlns/jdoconfig";
+    static String JDO_XSD_NS
+        = "https://db.apache.org/jdo/xmlns/jdo";
+    static String ORM_XSD_NS
+        = "https://db.apache.org/jdo/xmlns/orm";
+    static String JDOQUERY_XSD_NS
+        = "https://db.apache.org/jdo/xmlns/jdoquery";
+    static String ELEMENT_PERSISTENCE_MANAGER_FACTORY
+        = "persistence-manager-factory";
+    static String PMF_ATTRIBUTE_CLASS
+        = "class";
+    static String PMF_ATTRIBUTE_NAME
+        = "name";
+    static String PMF_ATTRIBUTE_PERSISTENCE_UNIT_NAME
+        = "persistence-unit-name";
+    static String PMF_ATTRIBUTE_OPTIMISTIC
+        = "optimistic";
+    static String PMF_ATTRIBUTE_READONLY
+        = "readonly";
+    static String PMF_ATTRIBUTE_RETAIN_VALUES
+        = "retain-values";
+    static String PMF_ATTRIBUTE_RESTORE_VALUES
+        = "restore-values";
+    static String PMF_ATTRIBUTE_IGNORE_CACHE
+        = "ignore-cache";
+    static String PMF_ATTRIBUTE_NONTRANSACTIONAL_READ
+        = "nontransactional-read";
+    static String PMF_ATTRIBUTE_NONTRANSACTIONAL_WRITE
+        = "nontransactional-write";
+    static String PMF_ATTRIBUTE_MULTITHREADED
+        = "multithreaded";
+    static String PMF_ATTRIBUTE_CONNECTION_DRIVER_NAME
+        = "connection-driver-name";
+    static String PMF_ATTRIBUTE_CONNECTION_USER_NAME
+        = "connection-user-name";
+    static String PMF_ATTRIBUTE_CONNECTION_PASSWORD
+        = "connection-password";
+    static String PMF_ATTRIBUTE_CONNECTION_URL
+        = "connection-url";
+    static String PMF_ATTRIBUTE_CONNECTION_FACTORY_NAME
+        = "connection-factory-name";
+    static String PMF_ATTRIBUTE_CONNECTION_FACTORY2_NAME
+        = "connection-factory2-name";
+    static String PMF_ATTRIBUTE_DETACH_ALL_ON_COMMIT
+        = "detach-all-on-commit";
+    static String PMF_ATTRIBUTE_COPY_ON_ATTACH
+        = "copy-on-attach";
+    static String PMF_ATTRIBUTE_MAPPING
+        = "mapping";
+    static String PMF_ATTRIBUTE_SERVER_TIME_ZONE_ID
+        = "server-time-zone-id";
+    static String PMF_ATTRIBUTE_DATASTORE_READ_TIMEOUT_MILLIS
+        = "datastore-read-timeout-millis";
+    static String PMF_ATTRIBUTE_DATASTORE_WRITE_TIMEOUT_MILLIS
+        = "datastore-write-timeout-millis";
+    static String ELEMENT_PROPERTY
+        = "property";
+    static String PROPERTY_ATTRIBUTE_NAME
+        = "name";
+    static String PROPERTY_ATTRIBUTE_VALUE
+        = "value";
+    static String ELEMENT_INSTANCE_LIFECYCLE_LISTENER
+        = "instance-lifecycle-listener";
+    static String INSTANCE_LIFECYCLE_LISTENER_ATTRIBUTE_LISTENER
+        = "listener";
+    static String INSTANCE_LIFECYCLE_LISTENER_ATTRIBUTE_CLASSES
+        = "classes";
+    static String OPTION_TRANSACTIONAL_TRANSIENT
+        = "javax.jdo.option.TransientTransactional";
+    static String OPTION_NONTRANSACTIONAL_READ
+        = "javax.jdo.option.NontransactionalRead";
+    static String OPTION_NONTRANSACTIONAL_WRITE
+        = "javax.jdo.option.NontransactionalWrite";
+    static String OPTION_RETAIN_VALUES
+        = "javax.jdo.option.RetainValues";
+    static String OPTION_OPTIMISTIC
+        = "javax.jdo.option.Optimistic";
+    static String OPTION_APPLICATION_IDENTITY
+        = "javax.jdo.option.ApplicationIdentity";
+    static String OPTION_DATASTORE_IDENTITY
+        = "javax.jdo.option.DatastoreIdentity";
+    static String OPTION_NONDURABLE_IDENTITY
+        = "javax.jdo.option.NonDurableIdentity";
+    static String OPTION_ARRAYLIST
+        = "javax.jdo.option.ArrayList";
+    static String OPTION_LINKEDLIST
+        = "javax.jdo.option.LinkedList";
+    static String OPTION_TREEMAP
+        = "javax.jdo.option.TreeMap";
+    static String OPTION_TREESET
+        = "javax.jdo.option.TreeSet";
+    static String OPTION_VECTOR
+        = "javax.jdo.option.Vector";
+    static String OPTION_ARRAY
+        = "javax.jdo.option.Array";
+    static String OPTION_NULL_COLLECTION
+        = "javax.jdo.option.NullCollection";
+    static String OPTION_CHANGE_APPLICATION_IDENTITY
+        = "javax.jdo.option.ChangeApplicationIdentity";
+    static String OPTION_BINARY_COMPATIBILITY
+        = "javax.jdo.option.BinaryCompatibility";
+    static String OPTION_GET_DATASTORE_CONNECTION
+        = "javax.jdo.option.GetDataStoreConnection";
+    static String OPTION_GET_JDBC_CONNECTION
+        = "javax.jdo.option.GetJDBCConnection";
+    static String OPTION_DATASTORE_TIMEOUT
+        = "javax.jdo.option.DatastoreTimeout";
+    static String OPTION_QUERY_SQL
+        = "javax.jdo.query.SQL";
+    static String OPTION_QUERY_CANCEL
+        = "javax.jdo.option.QueryCancel";
+    static String OPTION_UNCONSTRAINED_QUERY_VARIABLES
+        = "javax.jdo.query.JDOQL.UnconstrainedQueryVariables";
+    static String OPTION_QUERY_JDOQL_BITWISE_OPERATIONS
+        = "javax.jdo.query.JDOQL.BitwiseOperations";
+    static String OPTION_VERSION_DATETIME
+        = "javax.jdo.option.version.DateTime";
+    static String OPTION_VERSION_STATE_IMAGE
+        = "javax.jdo.option.version.StateImage";
+    static String OPTION_PREDIRTY_EVENT
+        = "javax.jdo.option.PreDirtyEvent";
+    static String OPTION_MAPPING_HETEROGENEOUS_OBJECT_TYPE
+        = "javax.jdo.option.mapping.HeterogeneousObjectType";
+    static String OPTION_MAPPING_HETEROGENEOUS_INTERFACE_TYPE
+        = "javax.jdo.option.mapping.HeterogeneousInterfaceType";
+    static String OPTION_MAPPING_JOINED_TABLE_PER_CLASS
+        = "javax.jdo.option.mapping.JoinedTablePerClass";
+    static String OPTION_MAPPING_JOINED_TABLE_PER_CONCRETE_CLASS
+        = "javax.jdo.option.mapping.JoinedTablePerConcreteClass";
+    static String OPTION_MAPPING_NON_JOINED_TABLE_PER_CONCRETE_CLASS
+        = "javax.jdo.option.mapping.NonJoinedTablePerConcreteClass";
+    static String OPTION_MAPPING_RELATION_SUBCLASS_TABLE
+        = "javax.jdo.option.mapping.RelationSubclassTable";
+    static String PROPERTY_PERSISTENCE_MANAGER_FACTORY_CLASS
+        = "javax.jdo.PersistenceManagerFactoryClass";
+    static String PROPERTY_OPTIMISTIC
+        = "javax.jdo.option.Optimistic";
+    static String PROPERTY_READONLY
+        = "javax.jdo.option.ReadOnly";
+    static String PROPERTY_RETAIN_VALUES
+        = "javax.jdo.option.RetainValues";
+    static String PROPERTY_RESTORE_VALUES
+        = "javax.jdo.option.RestoreValues";
+    static String PROPERTY_IGNORE_CACHE
+        = "javax.jdo.option.IgnoreCache";
+    static String PROPERTY_NONTRANSACTIONAL_READ
+        = "javax.jdo.option.NontransactionalRead";
+    static String PROPERTY_NONTRANSACTIONAL_WRITE
+        = "javax.jdo.option.NontransactionalWrite";
+    static String PROPERTY_MULTITHREADED
+        = "javax.jdo.option.Multithreaded";
+    static String PROPERTY_TRANSACTION_ISOLATION_LEVEL
+        = "javax.jdo.option.TransactionIsolationLevel";
+    static String PROPERTY_TRANSACTION_ISOLATION_LEVEL_READ_UNCOMMITTED
+        = "javax.jdo.option.TransactionIsolationLevel.read-uncommitted";
+    static String PROPERTY_TRANSACTION_ISOLATION_LEVEL_READ_COMMITTED
+        = "javax.jdo.option.TransactionIsolationLevel.read-committed";
+    static String PROPERTY_TRANSACTION_ISOLATION_LEVEL_REPEATABLE_READ
+        = "javax.jdo.option.TransactionIsolationLevel.repeatable-read";
+    static String PROPERTY_TRANSACTION_ISOLATION_LEVEL_SNAPSHOT
+        = "javax.jdo.option.TransactionIsolationLevel.snapshot";
+    static String PROPERTY_TRANSACTION_ISOLATION_LEVEL_SERIALIZABLE
+        = "javax.jdo.option.TransactionIsolationLevel.serializable";
+    static String PROPERTY_DETACH_ALL_ON_COMMIT
+        = "javax.jdo.option.DetachAllOnCommit";
+    static String PROPERTY_COPY_ON_ATTACH
+        = "javax.jdo.option.CopyOnAttach";
+    static String PROPERTY_CONNECTION_DRIVER_NAME
+        = "javax.jdo.option.ConnectionDriverName";
+    static String PROPERTY_CONNECTION_USER_NAME
+        = "javax.jdo.option.ConnectionUserName";
+    static String PROPERTY_CONNECTION_PASSWORD
+        = "javax.jdo.option.ConnectionPassword";
+    static String PROPERTY_CONNECTION_URL
+        = "javax.jdo.option.ConnectionURL";
+    static String PROPERTY_CONNECTION_FACTORY_NAME
+        = "javax.jdo.option.ConnectionFactoryName";
+    static String PROPERTY_CONNECTION_FACTORY2_NAME
+        = "javax.jdo.option.ConnectionFactory2Name";
+    static String PROPERTY_MAPPING
+        = "javax.jdo.option.Mapping";
+    static String PROPERTY_NAME
+        = "javax.jdo.option.Name";
+    static String PROPERTY_SPI_PROPERTIES_FILE_NAME
+        = "javax.jdo.spi.PropertiesFileName";
+    static String PROPERTY_SPI_RESOURCE_NAME
+        = "javax.jdo.option.spi.ResourceName";
+    static String PROPERTY_PERSISTENCE_UNIT_NAME
+        = "javax.jdo.option.PersistenceUnitName";
+    static String PROPERTY_INSTANCE_LIFECYCLE_LISTENER
+        = "javax.jdo.listener.InstanceLifecycleListener";
+    static String PROPERTY_PREFIX_INSTANCE_LIFECYCLE_LISTENER
+        = "javax.jdo.listener.InstanceLifecycleListener.";
+    static String PROPERTY_MAPPING_CATALOG
+        = "javax.jdo.mapping.Catalog";
+    static String PROPERTY_MAPPING_SCHEMA
+        = "javax.jdo.mapping.Schema";
+    static String PROPERTY_SERVER_TIME_ZONE_ID
+        = "javax.jdo.option.ServerTimeZoneID";
+    static String PROPERTY_DATASTORE_READ_TIMEOUT_MILLIS
+        = "javax.jdo.option.DatastoreReadTimeoutMillis";
+    static String PROPERTY_DATASTORE_WRITE_TIMEOUT_MILLIS
+        = "javax.jdo.option.DatastoreWriteTimeoutMillis";
+    static String NONCONFIGURABLE_PROPERTY_VENDOR_NAME
+        = "VendorName";
+    static String NONCONFIGURABLE_PROPERTY_VERSION_NUMBER
+        = "VersionNumber";
+    static String JTA
+        = "JTA";
+    static String RESOURCE_LOCAL
+        = "RESOURCE_LOCAL";
+    static String JDOCONFIG_DTD_RESOURCE
+        = "javax/jdo/jdoconfig_3_0.dtd";
+    static String JDOCONFIG_XSD_RESOURCE
+        = "javax/jdo/jdoconfig_3_0.xsd";
+    static String JDO_DTD_RESOURCE
+        = "javax/jdo/jdo_3_0.dtd";
+    static String JDO_XSD_RESOURCE
+        = "javax/jdo/jdo_3_0.xsd";
+    static String ORM_DTD_RESOURCE
+        = "javax/jdo/orm_3_0.dtd";
+    static String ORM_XSD_RESOURCE
+        = "javax/jdo/orm_3_0.xsd";
+    static String JDOQUERY_DTD_RESOURCE
+        = "javax/jdo/jdoquery_3_0.dtd";
+    static String JDOQUERY_XSD_RESOURCE
+        = "javax/jdo/jdoquery_3_0.xsd";
+    static String ANONYMOUS_PERSISTENCE_MANAGER_FACTORY_NAME
+        = "";
+    public static final String TX_READ_UNCOMMITTED = "read-uncommitted"; 
+    public static final String TX_READ_COMMITTED = "read-committed"; 
+    public static final String TX_REPEATABLE_READ = "repeatable-read"; 
+    public static final String TX_SNAPSHOT = "snapshot"; 
+    public static final String TX_SERIALIZABLE = "serializable"; 
+    public static final String PROPERTY_ENHANCER_VENDOR_NAME = "VendorName";
+    public static final String PROPERTY_ENHANCER_VERSION_NUMBER = "VersionNumber";
+    public static final String PROPERTY_TRANSACTION_TYPE = "javax.jdo.option.TransactionType";
+    public static final int ENHANCER_EXCEPTION = 1;
+    public static final int ENHANCER_NO_JDO_ENHANCER_FOUND = 2;
+    public static final int ENHANCER_USAGE_ERROR = 3;
+}
+
+public interface javax.jdo.datastore.DataStoreCache {
+    abstract void evict(Object oid);
+    abstract void evictAll();
+    abstract varargs void evictAll(Object[] oids);
+    abstract void evictAll(java.util.Collection oids);
+    abstract void evictAll(boolean subclasses, Class pcClass);
+    abstract void pin(Object oid);
+    abstract void pinAll(java.util.Collection oids);
+    abstract varargs void pinAll(Object[] oids);
+    abstract void pinAll(boolean subclasses, Class pcClass);
+    abstract void unpin(Object oid);
+    abstract void unpinAll(java.util.Collection oids);
+    abstract varargs void unpinAll(Object[] oids);
+    abstract void unpinAll(boolean subclasses, Class pcClass);
+}
+
+public interface javax.jdo.datastore.JDOConnection {
+    abstract Object getNativeConnection();
+    abstract void close();
+}
+
+public interface javax.jdo.datastore.Sequence {
+    abstract String getName();
+    abstract Object next();
+    abstract void allocate(int additional);
+    abstract Object current();
+    abstract long nextValue();
+    abstract long currentValue();
+}
+
+public interface javax.jdo.Extent extends java.lang.Iterable, java.lang.AutoCloseable {
+    abstract java.util.Iterator iterator();
+    abstract boolean hasSubclasses();
+    abstract Class getCandidateClass();
+    abstract javax.jdo.PersistenceManager getPersistenceManager();
+    abstract void closeAll();
+    abstract void close(java.util.Iterator it);
+    abstract void close() throws java.lang.Exception;
+    abstract javax.jdo.FetchPlan getFetchPlan();
+}
+
+public interface javax.jdo.FetchPlan {
+    public static final String DEFAULT = "default";
+    public static final String ALL = "all";
+    public static final int DETACH_UNLOAD_FIELDS = 2;
+    public static final int DETACH_LOAD_FIELDS = 1;
+    public static final int FETCH_SIZE_GREEDY = -1;
+    public static final int FETCH_SIZE_OPTIMAL = 0;
+    abstract javax.jdo.FetchPlan addGroup(String fetchGroupName);
+    abstract javax.jdo.FetchPlan removeGroup(String fetchGroupName);
+    abstract javax.jdo.FetchPlan clearGroups();
+    abstract java.util.Set getGroups();
+    abstract javax.jdo.FetchPlan setGroups(java.util.Collection fetchGroupNames);
+    abstract varargs javax.jdo.FetchPlan setGroups(String[]fetchGroupNames);
+    abstract javax.jdo.FetchPlan setGroup(String fetchGroupName);
+    abstract javax.jdo.FetchPlan setMaxFetchDepth(int fetchDepth);
+    abstract int getMaxFetchDepth();
+    abstract javax.jdo.FetchPlan setDetachmentRoots(java.util.Collection roots);
+    abstract java.util.Collection getDetachmentRoots();
+    abstract varargs javax.jdo.FetchPlan setDetachmentRootClasses(Class[] rootClasses);
+    abstract Class[] getDetachmentRootClasses();
+    abstract javax.jdo.FetchPlan setFetchSize(int fetchSize);
+    abstract int getFetchSize();
+    abstract javax.jdo.FetchPlan setDetachmentOptions(int options);
+    abstract int getDetachmentOptions();
+}
+
+public class javax.jdo.identity.ByteIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public ByteIdentity(Class pcClass, byte key);
+    public ByteIdentity(Class pcClass, Byte key);
+    public ByteIdentity(Class pcClass, String str);
+    public ByteIdentity();
+    public byte getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public class javax.jdo.identity.CharIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public CharIdentity(Class pcClass, char key);
+    public CharIdentity(Class pcClass, Character key);
+    public CharIdentity(Class pcClass, String str);
+    public CharIdentity();
+    public char getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public class javax.jdo.identity.IntIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public IntIdentity(Class pcClass, int key);
+    public IntIdentity(Class pcClass, Integer key);
+    public IntIdentity(Class pcClass, String str);
+    public IntIdentity();
+    public int getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public class javax.jdo.identity.LongIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public LongIdentity(Class pcClass, long key);
+    public LongIdentity(Class pcClass, Long key);
+    public LongIdentity(Class pcClass, String str);
+    public LongIdentity();
+    public long getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public class javax.jdo.identity.ObjectIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public ObjectIdentity(Class pcClass, Object param);
+    public ObjectIdentity();
+    public Object getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int hashCode();
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public class javax.jdo.identity.ShortIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public ShortIdentity(Class pcClass, short key);
+    public ShortIdentity(Class pcClass, Short key);
+    public ShortIdentity(Class pcClass, String str);
+    public ShortIdentity();
+    public short getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public abstract class javax.jdo.identity.SingleFieldIdentity implements java.io.Externalizable, java.lang.Comparable {
+    public SingleFieldIdentity();
+    public Class getTargetClass();
+    public String getTargetClassName();
+    public synchronized Object getKeyAsObject();
+    public boolean equals(Object obj);
+    public int hashCode();
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public class javax.jdo.identity.StringIdentity extends javax.jdo.identity.SingleFieldIdentity {
+    public StringIdentity(Class pcClass, String key);
+    public StringIdentity();
+    public String getKey();
+    public String toString();
+    public boolean equals(Object obj);
+    public int compareTo(Object obj);
+    public void writeExternal(java.io.ObjectOutput out) throws java.io.IOException;
+    public void readExternal(java.io.ObjectInput in) throws java.io.IOException, ClassNotFoundException;
+}
+
+public interface javax.jdo.InstanceCallbacks extends javax.jdo.listener.ClearCallback, javax.jdo.listener.DeleteCallback, javax.jdo.listener.LoadCallback, javax.jdo.listener.StoreCallback {
+}
+
+public class javax.jdo.JDOCanRetryException extends javax.jdo.JDOException {
+    public JDOCanRetryException();
+    public JDOCanRetryException(String msg);
+    public JDOCanRetryException(String msg, Throwable[] nested);
+    public JDOCanRetryException(String msg, Throwable nested);
+    public JDOCanRetryException(String msg, Object failed);
+    public JDOCanRetryException(String msg, Throwable[] nested, Object failed);
+    public JDOCanRetryException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDODataStoreException extends javax.jdo.JDOCanRetryException {
+    public JDODataStoreException();
+    public JDODataStoreException(String msg);
+    public JDODataStoreException(String msg, Throwable[] nested);
+    public JDODataStoreException(String msg, Throwable nested);
+    public JDODataStoreException(String msg, Object failed);
+    public JDODataStoreException(String msg, Throwable[] nested, Object failed);
+    public JDODataStoreException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDODetachedFieldAccessException extends javax.jdo.JDOUserException {
+    public JDODetachedFieldAccessException();
+    public JDODetachedFieldAccessException(String msg);
+    public JDODetachedFieldAccessException(String, Object);
+    public JDODetachedFieldAccessException(String msg, Throwable[] nested);
+    public JDODetachedFieldAccessException(String msg, Throwable nested);
+}
+
+public class javax.jdo.JDOException extends RuntimeException {
+    public JDOException();
+    public JDOException(String msg);
+    public JDOException(String msg, Throwable[] nested);
+    public JDOException(String msg, Throwable nested);
+    public JDOException(String msg, Object failed);
+    public JDOException(String msg, Throwable[] nested, Object failed);
+    public JDOException(String msg, Throwable nested, Object failed);
+    public Object getFailedObject();
+    public Throwable[] getNestedExceptions();
+    public synchronized Throwable getCause();
+    public Throwable initCause(Throwable cause);
+    public synchronized String toString();
+    public void printStackTrace();
+    public synchronized void printStackTrace(java.io.PrintStream s);
+    public synchronized void printStackTrace(java.io.PrintWriter s);
+}
+
+public class javax.jdo.JDOFatalDataStoreException extends javax.jdo.JDOFatalException {
+    public JDOFatalDataStoreException();
+    public JDOFatalDataStoreException(String msg);
+    public JDOFatalDataStoreException(String msg, Object failed);
+    public JDOFatalDataStoreException(String msg, Throwable[] nested);
+    public JDOFatalDataStoreException(String msg, Throwable nested);
+    public JDOFatalDataStoreException(String msg, Throwable[] nested, Object failed);
+    public JDOFatalDataStoreException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDOFatalException extends javax.jdo.JDOException {
+    public JDOFatalException();
+    public JDOFatalException(String msg);
+    public JDOFatalException(String msg, Throwable[] nested);
+    public JDOFatalException(String msg, Throwable nested);
+    public JDOFatalException(String msg, Object failed);
+    public JDOFatalException(String msg, Throwable[] nested, Object failed);
+    public JDOFatalException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDOFatalInternalException extends javax.jdo.JDOFatalException {
+    public JDOFatalInternalException();
+    public JDOFatalInternalException(String msg);
+    public JDOFatalInternalException(String msg, Throwable[] nested);
+    public JDOFatalInternalException(String msg, Throwable nested);
+    public JDOFatalInternalException(String msg, Object failed);
+    public JDOFatalInternalException(String msg, Throwable[] nested, Object failed);
+    public JDOFatalInternalException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDOFatalUserException extends javax.jdo.JDOFatalException {
+    public JDOFatalUserException();
+    public JDOFatalUserException(String msg);
+    public JDOFatalUserException(String msg, Throwable[] nested);
+    public JDOFatalUserException(String msg, Throwable nested);
+    public JDOFatalUserException(String msg, Object failed);
+    public JDOFatalUserException(String msg, Throwable[] nested, Object failed);
+    public JDOFatalUserException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDOHelper implements javax.jdo.Constants {
+    public JDOHelper();
+    public static javax.jdo.JDOHelper getInstance();
+    public static javax.jdo.PersistenceManager getPersistenceManager(Object pc);
+    public static void makeDirty(Object pc, String fieldName);
+    public static Object getObjectId(Object pc);
+    public static java.util.Collection getObjectIds(java.util.Collection pcs);
+    public static Object[] getObjectIds(Object[] pcs);
+    public static Object getTransactionalObjectId(Object pc);
+    public static Object getVersion(Object pc);
+    public static boolean isDirty(Object pc);
+    public static boolean isTransactional(Object pc);
+    public static boolean isPersistent(Object pc);
+    public static boolean isNew(Object pc);
+    public static boolean isDeleted(Object pc);
+    public static boolean isDetached(Object pc);
+    public static enum javax.jdo.ObjectState getObjectState(Object pc);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory();
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.util.Map props);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.util.Map props, ClassLoader cl);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.util.Map props, java.lang.String name, ClassLoader propsloader, ClassLoader pmfloader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.util.Map props, java.lang.String name, ClassLoader pmfloader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.util.Map props, java.lang.String name);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(String propsResource);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(String propsResource, ClassLoader loader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(String propsResource, ClassLoader propsLoader, ClassLoader pmfLoader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(ClassLoader pmfLoader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.io.File propsFile);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.io.File propsFile, ClassLoader loader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(String jndiLocation, javax.naming.Context context);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(String jndiLocation, javax.naming.Context context, ClassLoader loader);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.io.InputStream stream);
+    public static javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory(java.io.InputStream stream, ClassLoader loader);
+    public static javax.jdo.JDOEnhancer getEnhancer();
+    public static javax.jdo.JDOEnhancer getEnhancer(ClassLoader loader);
+}
+
+public class javax.jdo.JDONullIdentityException extends javax.jdo.JDOUserException {
+    public JDONullIdentityException();
+    public JDONullIdentityException(String msg);
+    public JDONullIdentityException(String msg, Object failed);
+    public JDONullIdentityException(String msg, Throwable[] nested);
+    public JDONullIdentityException(String msg, Throwable nested);
+}
+
+public class javax.jdo.JDOObjectNotFoundException extends javax.jdo.JDODataStoreException {
+    public JDOObjectNotFoundException();
+    public JDOObjectNotFoundException(String msg);
+    public JDOObjectNotFoundException(String msg, Object failed);
+    public JDOObjectNotFoundException(String msg, Throwable nested);
+    public JDOObjectNotFoundException(String msg, Throwable nested, Object failed);
+    public JDOObjectNotFoundException(String msg, Throwable[] nested);
+    public JDOObjectNotFoundException(String msg, Throwable[] nested, Object failed);
+}
+
+public class javax.jdo.JDOOptimisticVerificationException extends javax.jdo.JDOFatalDataStoreException {
+    public JDOOptimisticVerificationException();
+    public JDOOptimisticVerificationException(String msg);
+    public JDOOptimisticVerificationException(String msg, Object failed);
+    public JDOOptimisticVerificationException(String msg, Throwable[] nested);
+    public JDOOptimisticVerificationException(String msg, Throwable nested, Object failed);
+    public JDOOptimisticVerificationException(String msg, Throwable[] nested, Object failed);
+}
+
+public class javax.jdo.JDOUnsupportedOptionException extends javax.jdo.JDOUserException {
+    public JDOUnsupportedOptionException();
+    public JDOUnsupportedOptionException(String msg);
+    public JDOUnsupportedOptionException(String msg, Throwable[] nested);
+    public JDOUnsupportedOptionException(String msg, Throwable nested);
+}
+
+public class javax.jdo.JDOUserCallbackException extends javax.jdo.JDOUserException {
+    public JDOUserCallbackException();
+    public JDOUserCallbackException(String msg);
+    public JDOUserCallbackException(String msg, Throwable[] nested);
+    public JDOUserCallbackException(String msg, Throwable nested);
+    public JDOUserCallbackException(String msg, Object failed);
+    public JDOUserCallbackException(String msg, Throwable[] nested, Object failed);
+    public JDOUserCallbackException(String msg, Throwable nested, Object failed);
+}
+
+public class javax.jdo.JDOUserException extends javax.jdo.JDOCanRetryException {
+    public JDOUserException();
+    public JDOUserException(String msg);
+    public JDOUserException(String msg, Throwable[] nested);
+    public JDOUserException(String msg, Throwable nested);
+    public JDOUserException(String msg, Object failed);
+    public JDOUserException(String msg, Throwable[] nested, Object failed);
+    public JDOUserException(String msg, Throwable nested, Object failed);
+}
+
+public interface javax.jdo.listener.AttachCallback {
+    abstract void jdoPreAttach();
+    abstract void jdoPostAttach(Object attached);
+}
+
+public interface javax.jdo.listener.AttachLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void preAttach(javax.jdo.listener.InstanceLifecycleEvent event);
+    abstract void postAttach(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.listener.ClearCallback {
+    abstract void jdoPreClear();
+}
+
+public interface javax.jdo.listener.ClearLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void preClear(javax.jdo.listener.InstanceLifecycleEvent event);
+    abstract void postClear(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.listener.CreateLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void postCreate(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.listener.DeleteCallback {
+    abstract void jdoPreDelete();
+}
+
+public interface javax.jdo.listener.DeleteLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void preDelete(javax.jdo.listener.InstanceLifecycleEvent event);
+    abstract void postDelete(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.listener.DetachCallback {
+    abstract void jdoPreDetach();
+    abstract void jdoPostDetach(Object detached);
+}
+
+public interface javax.jdo.listener.DetachLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void preDetach(javax.jdo.listener.InstanceLifecycleEvent event);
+    abstract void postDetach(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.listener.DirtyLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void preDirty(javax.jdo.listener.InstanceLifecycleEvent event);
+    abstract void postDirty(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public class javax.jdo.listener.InstanceLifecycleEvent extends java.util.EventObject {
+    public static final int CREATE = 0;
+    public static final int LOAD = 1;
+    public static final int STORE = 2;
+    public static final int CLEAR = 3;
+    public static final int DELETE = 4;
+    public static final int DIRTY = 5;
+    public static final int DETACH = 6;
+    public static final int ATTACH = 7;
+    public InstanceLifecycleEvent(Object source, int type);
+    public InstanceLifecycleEvent(Object source, int type, Object target);
+    public int getEventType();
+    public Object getSource();
+    public Object getTarget();
+    public Object getPersistentInstance();
+    public Object getDetachedInstance();
+}
+
+public interface javax.jdo.listener.InstanceLifecycleListener {
+}
+
+public interface javax.jdo.listener.LoadCallback {
+    abstract void jdoPostLoad();
+}
+
+public interface javax.jdo.listener.LoadLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void postLoad(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.listener.StoreCallback {
+    abstract void jdoPreStore();
+}
+
+public interface javax.jdo.listener.StoreLifecycleListener extends javax.jdo.listener.InstanceLifecycleListener {
+    abstract void preStore(javax.jdo.listener.InstanceLifecycleEvent event);
+    abstract void postStore(javax.jdo.listener.InstanceLifecycleEvent event);
+}
+
+public interface javax.jdo.PersistenceManager extends java.lang.AutoCloseable {
+    abstract boolean isClosed();
+    abstract void close();
+    abstract javax.jdo.Transaction currentTransaction();
+    abstract void evict(Object pc);
+    abstract varargs void evictAll(Object[] pcs);
+    abstract void evictAll(java.util.Collection pcs);
+    abstract void evictAll(boolean, Class);
+    abstract void evictAll();
+    abstract void refresh(Object pc);
+    abstract varargs void refreshAll(Object[] pcs);
+    abstract void refreshAll(java.util.Collection pcs);
+    abstract void refreshAll();
+    abstract void refreshAll(javax.jdo.JDOException jdoe);
+    abstract javax.jdo.Query newQuery();
+    abstract javax.jdo.Query newQuery(Object compiled);
+    abstract javax.jdo.Query newQuery(String query);
+    abstract javax.jdo.Query newQuery(String language, Object query);
+    abstract javax.jdo.Query newQuery(Class cls);
+    abstract javax.jdo.Query newQuery(javax.jdo.Extent cln);
+    abstract javax.jdo.Query newQuery(Class cls, java.util.Collection cln);
+    abstract javax.jdo.Query newQuery(Class cls, String filter);
+    abstract javax.jdo.Query newQuery(Class cls, java.util.Collection cln, String filter);
+    abstract javax.jdo.Query newQuery(javax.jdo.Extent cln, String filter);
+    abstract javax.jdo.Query newNamedQuery(Class cls, String queryName);
+    abstract javax.jdo.JDOQLTypedQuery newJDOQLTypedQuery(Class cls);
+    abstract javax.jdo.Extent getExtent(Class persistenceCapableClass, boolean subclasses);
+    abstract javax.jdo.Extent getExtent(Class persistenceCapableClass);
+    abstract Object getObjectById(Object oid, boolean validate);
+    abstract Object getObjectById(Class cls, Object key);
+    abstract Object getObjectById(Object oid);
+    abstract Object getObjectId(Object pc);
+    abstract Object getTransactionalObjectId(Object pc);
+    abstract Object newObjectIdInstance(Class pcClass, Object key);
+    abstract java.util.Collection getObjectsById(java.util.Collection oids, boolean validate);
+    abstract java.util.Collection getObjectsById(java.util.Collection oids);
+    abstract varargs Object[] getObjectsById(boolean validate,Object[] oids);
+    abstract varargs Object[] getObjectsById(Object[] oids);
+    abstract Object makePersistent(Object pc);
+    abstract varargs Object[] makePersistentAll(Object[] pcs);
+    abstract java.util.Collection makePersistentAll(java.util.Collection pcs);
+    abstract void deletePersistent(Object pc);
+    abstract varargs void deletePersistentAll(Object[] pcs);
+    abstract void deletePersistentAll(java.util.Collection pcs);
+    abstract void makeTransient(Object pc);
+    abstract varargs void makeTransientAll(Object[] pcs);
+    abstract void makeTransientAll(java.util.Collection pcs);
+    abstract void makeTransient(Object pc, boolean useFetchPlan);
+    abstract varargs void makeTransientAll(boolean useFetchPlan, Object[] pcs);
+    abstract void makeTransientAll(java.util.Collection pcs, boolean useFetchPlan);
+    abstract void makeTransactional(Object pc);
+    abstract varargs void makeTransactionalAll(Object[] pcs);
+    abstract void makeTransactionalAll(java.util.Collection pcs);
+    abstract void makeNontransactional(Object pc);
+    abstract varargs void makeNontransactionalAll(Object[] pcs);
+    abstract void makeNontransactionalAll(java.util.Collection pcs);
+    abstract void retrieve(Object pc);
+    abstract void retrieve(Object pc, boolean FGOnly);
+    abstract void retrieveAll(java.util.Collection pcs);
+    abstract void retrieveAll(java.util.Collection pcs, boolean FGOnly);
+    abstract varargs void retrieveAll(Object[] pcs);
+    abstract varargs void retrieveAll(boolean FGOnly, Object[] pcs);
+    abstract void setUserObject(Object o);
+    abstract Object getUserObject();
+    abstract javax.jdo.PersistenceManagerFactory getPersistenceManagerFactory();
+    abstract Class getObjectIdClass(Class cls);
+    abstract void setMultithreaded(boolean flag);
+    abstract boolean getMultithreaded();
+    abstract void setIgnoreCache(boolean flag);
+    abstract boolean getIgnoreCache();
+    abstract boolean getDetachAllOnCommit();
+    abstract void setDetachAllOnCommit(boolean flag);
+    abstract boolean getCopyOnAttach();
+    abstract void setCopyOnAttach(boolean flag);
+    abstract Object detachCopy(Object pc);
+    abstract java.util.Collection detachCopyAll(java.util.Collection pcs);
+    abstract varargs Object[] detachCopyAll(Object [] pcs);
+    abstract Object putUserObject(Object key, Object val);
+    abstract Object getUserObject(Object key);
+    abstract Object removeUserObject(Object key);
+    abstract void flush();
+    abstract void checkConsistency();
+    abstract javax.jdo.FetchPlan getFetchPlan();
+    abstract Object newInstance(Class pcClass);
+    abstract java.util.Date getServerDate();
+    abstract javax.jdo.datastore.Sequence getSequence(String name);
+    abstract javax.jdo.datastore.JDOConnection getDataStoreConnection();
+    abstract varargs void addInstanceLifecycleListener(javax.jdo.listener.InstanceLifecycleListener listener, Class[] classes);
+    abstract void removeInstanceLifecycleListener(javax.jdo.listener.InstanceLifecycleListener listener);
+    abstract java.util.Set getManagedObjects();
+    abstract java.util.Set getManagedObjects(java.util.EnumSet states);
+    abstract varargs java.util.Set getManagedObjects(Class[] classes);
+    abstract varargs java.util.Set getManagedObjects(java.util.EnumSet states, Class[] classes);
+    abstract javax.jdo.FetchGroup getFetchGroup(Class cls, String name);
+    abstract void setDatastoreReadTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreReadTimeoutMillis();
+    abstract void setDatastoreWriteTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreWriteTimeoutMillis();
+    abstract void setProperty(String propertyName, Object value);
+    abstract java.util.Map getProperties();
+    abstract java.util.Set getSupportedProperties();
+}
+
+public interface javax.jdo.PersistenceManagerFactory extends java.io.Serializable {
+    abstract void close();
+    abstract boolean isClosed();
+    abstract javax.jdo.PersistenceManager getPersistenceManager();
+    abstract javax.jdo.PersistenceManager getPersistenceManagerProxy();
+    abstract javax.jdo.PersistenceManager getPersistenceManager(String userid, String password);
+    abstract void setConnectionUserName(String userName);
+    abstract String getConnectionUserName();
+    abstract void setConnectionPassword(String password);
+    abstract void setConnectionURL(String URL);
+    abstract String getConnectionURL();
+    abstract void setConnectionDriverName(String driverName);
+    abstract String getConnectionDriverName();
+    abstract void setConnectionFactoryName(String connectionFactoryName);
+    abstract String getConnectionFactoryName();
+    abstract void setConnectionFactory(Object connectionFactory);
+    abstract Object getConnectionFactory();
+    abstract void setConnectionFactory2Name(String connectionFactoryName);
+    abstract String getConnectionFactory2Name();
+    abstract void setConnectionFactory2(Object connectionFactory);
+    abstract Object getConnectionFactory2();
+    abstract void setMultithreaded(boolean flag);
+    abstract boolean getMultithreaded();
+    abstract void setMapping(String mapping);
+    abstract String getMapping();
+    abstract void setOptimistic(boolean flag);
+    abstract boolean getOptimistic();
+    abstract void setRetainValues(boolean flag);
+    abstract boolean getRetainValues();
+    abstract void setRestoreValues(boolean restoreValues);
+    abstract boolean getRestoreValues();
+    abstract void setNontransactionalRead(boolean flag);
+    abstract boolean getNontransactionalRead();
+    abstract void setNontransactionalWrite(boolean flag);
+    abstract boolean getNontransactionalWrite();
+    abstract void setIgnoreCache(boolean flag);
+    abstract boolean getIgnoreCache();
+    abstract boolean getDetachAllOnCommit();
+    abstract void setDetachAllOnCommit(boolean flag);
+    abstract boolean getCopyOnAttach();
+    abstract void setCopyOnAttach(boolean flag);
+    abstract java.lang.String getName();
+    abstract void setName(java.lang.String);
+    abstract java.lang.String getPersistenceUnitName();
+    abstract void setPersistenceUnitName(java.lang.String);
+    abstract java.lang.String getServerTimeZoneID();
+    abstract void setServerTimeZoneID(java.lang.String);
+    abstract java.lang.String getTransactionType();
+    abstract void setTransactionType(java.lang.String);
+    abstract void setReadOnly(boolean flag);
+    abstract boolean getReadOnly();
+    abstract void setTransactionIsolationLevel(String);
+    abstract String getTransactionIsolationLevel();
+    abstract java.util.Properties getProperties();
+    abstract java.util.Collection supportedOptions();
+    abstract javax.jdo.datastore.DataStoreCache getDataStoreCache();
+    abstract void addInstanceLifecycleListener(javax.jdo.listener.InstanceLifecycleListener listener, Class[] classes);
+    abstract void removeInstanceLifecycleListener(javax.jdo.listener.InstanceLifecycleListener listener);
+    abstract varargs void addFetchGroups(javax.jdo.FetchGroup[] groups);
+    abstract varargs void removeFetchGroups(javax.jdo.FetchGroup[] groups);
+    abstract void removeAllFetchGroups();
+    abstract javax.jdo.FetchGroup getFetchGroup(Class cls, String name);
+    abstract java.util.Set getFetchGroups();
+    abstract void registerMetadata(javax.jdo.metadata.JDOMetadata metadata);
+    abstract javax.jdo.metadata.JDOMetadata newMetadata();
+    abstract javax.jdo.metadata.TypeMetadata getMetadata(String className);
+    abstract void setDatastoreReadTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreReadTimeoutMillis();
+    abstract void setDatastoreWriteTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreWriteTimeoutMillis();
+    abstract java.util.Collection getManagedClasses();
+}
+
+public interface javax.jdo.Query extends java.lang.AutoCloseable, java.io.Serializable {
+    public static final String JDOQL = "javax.jdo.query.JDOQL";
+    public static final String SQL = "javax.jdo.query.SQL";
+    abstract void setClass(Class cls);
+    abstract void setCandidates(javax.jdo.Extent pcs);
+    abstract void setCandidates(java.util.Collection pcs);
+    abstract void setFilter(String filter);
+    abstract void declareImports(String imports);
+    abstract void declareParameters(String parameters);
+    abstract void declareVariables(String variables);
+    abstract void setOrdering(String ordering);
+    abstract void setIgnoreCache(boolean ignoreCache);
+    abstract void addSubquery(javax.jdo.Query, java.lang.String, java.lang.String);
+    abstract void addSubquery(javax.jdo.Query, java.lang.String, java.lang.String, java.lang.String);
+    abstract varargs void addSubquery(javax.jdo.Query, java.lang.String, java.lang.String, java.lang.String[]);
+    abstract void addSubquery(javax.jdo.Query, java.lang.String, java.lang.String, java.util.Map);
+    abstract boolean getIgnoreCache();
+    abstract void compile();
+    abstract Object execute();
+    abstract Object execute(Object p1);
+    abstract Object execute(Object p1, Object p2);
+    abstract Object execute(Object p1, Object p2, Object p3);
+    abstract Object executeWithMap(java.util.Map parameters);
+    abstract varargs Object executeWithArray(Object[] parameters);
+    abstract javax.jdo.PersistenceManager getPersistenceManager();
+    abstract void close(Object queryResult);
+    abstract void closeAll();
+    abstract void close() throws java.lang.Exception;
+    abstract void setGrouping(String group);
+    abstract void setUnique(boolean unique);
+    abstract void setResult(String data);
+    abstract void setResultClass(Class cls);
+    abstract void setRange(long fromIncl, long toExcl);
+    abstract void setRange(String fromInclToExcl);
+    abstract void addExtension(String key, Object value);
+    abstract void setExtensions(java.util.Map extensions);
+    abstract javax.jdo.FetchPlan getFetchPlan();
+    abstract varargs long deletePersistentAll(Object[] parameters);
+    abstract long deletePersistentAll(java.util.Map parameters);
+    abstract long deletePersistentAll();
+    abstract void setUnmodifiable();
+    abstract boolean isUnmodifiable();
+    abstract void cancelAll();
+    abstract void cancel(Thread);
+    abstract Boolean getSerializeRead();
+    abstract void setSerializeRead(Boolean);
+    abstract void setDatastoreReadTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreReadTimeoutMillis();
+    abstract void setDatastoreWriteTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreWriteTimeoutMillis();
+    abstract javax.jdo.Query saveAsNamedQuery(String);
+    abstract javax.jdo.Query filter(String filter);
+    abstract javax.jdo.Query orderBy(String ordering);
+    abstract javax.jdo.Query groupBy(String group);
+    abstract javax.jdo.Query result(String result);
+    abstract javax.jdo.Query range(long fromIncl, long toExcl);
+    abstract javax.jdo.Query range(String fromInclToExcl);
+    abstract javax.jdo.Query subquery(javax.jdo.Query sub, String variableDeclaration, String candidateCollectionExpression);
+    abstract javax.jdo.Query subquery(javax.jdo.Query sub, String variableDeclaration, String candidateCollectionExpression, String parameter);
+    abstract varargs javax.jdo.Query subquery(javax.jdo.Query sub, String variableDeclaration, String candidateCollectionExpression, String[] parameters);
+    abstract javax.jdo.Query subquery(javax.jdo.Query sub, String variableDeclaration, String candidateCollectionExpression, java.util.Map parameters);
+    abstract javax.jdo.Query imports(String imports);
+    abstract javax.jdo.Query parameters(String parameters);
+    abstract javax.jdo.Query variables(String variables);
+    abstract javax.jdo.Query datastoreReadTimeoutMillis(Integer interval);
+    abstract javax.jdo.Query datastoreWriteTimeoutMillis(Integer interval);
+    abstract javax.jdo.Query serializeRead(Boolean serialize);
+    abstract javax.jdo.Query unmodifiable();
+    abstract javax.jdo.Query ignoreCache(boolean flag);
+    abstract javax.jdo.Query extension(String key, Object value);
+    abstract javax.jdo.Query extensions(java.util.Map values);
+    abstract javax.jdo.Query setNamedParameters(java.util.Map namedParamMap);
+    abstract varargs javax.jdo.Query setParameters(Object[] paramValues);
+    abstract java.util.List executeList();
+    abstract Object executeUnique();
+    abstract java.util.List executeResultList(Class resultCls);
+    abstract Object executeResultUnique(Class resultCls);
+    abstract java.util.List executeResultList();
+    abstract Object executeResultUnique();
+}
+
+public interface javax.jdo.spi.Detachable {
+    abstract void jdoReplaceDetachedState();
+}
+
+public class javax.jdo.spi.JDOImplHelper extends Object {
+    public static javax.jdo.spi.JDOImplHelper getInstance() throws SecurityException;
+    public String[] getFieldNames(Class pcClass);
+    public Class[] getFieldTypes(Class pcClass);
+    public byte[] getFieldFlags(Class pcClass);
+    public Class getPersistenceCapableSuperclass(Class pcClass);
+    public javax.jdo.spi.PersistenceCapable newInstance(Class pcClass, javax.jdo.spi.StateManager sm);
+    public javax.jdo.spi.PersistenceCapable newInstance(Class pcClass, javax.jdo.spi.StateManager sm, Object oid);
+    public Object newObjectIdInstance(Class pcClass);
+    public Object newObjectIdInstance(Class pcClass, Object obj);
+    public void copyKeyFieldsToObjectId(Class pcClass, javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fm, Object oid);
+    public void copyKeyFieldsFromObjectId(Class pcClass, javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fm, Object oid);
+    public static void registerClass(Class pcClass, String[] fieldNames, Class[] fieldTypes, byte[] fieldFlags, Class persistenceCapableSuperclass, javax.jdo.spi.PersistenceCapable pc);
+    public void unregisterClasses(ClassLoader cl);
+    public void unregisterClass(Class pcClass);
+    public void addRegisterClassListener(javax.jdo.spi.RegisterClassListener crl);
+    public void removeRegisterClassListener(javax.jdo.spi.RegisterClassListener crl);
+    public java.util.Collection getRegisteredClasses();
+    public static void registerAuthorizedStateManagerClass(Class smClass) throws SecurityException;
+    public static void registerAuthorizedStateManagerClasses(java.util.Collection smClasses) throws SecurityException;
+    public static void checkAuthorizedStateManager(javax.jdo.spi.StateManager sm);
+    public static void checkAuthorizedStateManagerClass(Class smClass);
+    public Object registerStringConstructor(Class cls, javax.jdo.spi.JDOImplHelper$StringConstructor sc);
+    public static Object construct(String className, String keyString);
+    public synchronized void registerDateFormat(java.text.DateFormat df);
+    public synchronized void registerErrorHandler(org.xml.sax.ErrorHandler);
+    public static org.xml.sax.ErrorHandler getRegisteredErrorHandler();
+    public synchronized void registerDocumentBuilderFactory(javax.xml.parsers.DocumentBuilderFactory);
+    public static javax.xml.parsers.DocumentBuilderFactory getRegisteredDocumentBuilderFactory();
+    public synchronized void addStateInterrogation(javax.jdo.spi.StateInterrogation si);
+    public synchronized void removeStateInterrogation(javax.jdo.spi.StateInterrogation si);
+    public void nonBinaryCompatibleMakeDirty(Object pc, String fieldName);
+    public boolean nonBinaryCompatibleIs(Object pc, javax.jdo.spi.JDOImplHelper$StateInterrogationBooleanReturn sibr);
+    public Object nonBinaryCompatibleGet(Object pc, javax.jdo.spi.JDOImplHelper$StateInterrogationObjectReturn sibr);
+    public static void assertOnlyKnownStandardProperties(java.util.Map properties);
+    public static final java.util.Set USER_CONFIGURABLE_STANDARD_PROPERTIES;
+}
+
+static public interface javax.jdo.spi.JDOImplHelper$StringConstructor {
+    abstract Object construct(String s);
+}
+
+static public interface javax.jdo.spi.JDOImplHelper$StateInterrogationBooleanReturn {
+    abstract Boolean is(Object pc, javax.jdo.spi.StateInterrogation si);
+}
+
+static public interface javax.jdo.spi.JDOImplHelper$StateInterrogationObjectReturn {
+    abstract Object get(Object pc, javax.jdo.spi.StateInterrogation si);
+}
+
+public final class javax.jdo.spi.JDOPermission extends java.security.BasicPermission {
+    public JDOPermission(String name);
+    public JDOPermission(String name, String actions);
+    public static final javax.jdo.spi.JDOPermission GET_METADATA;
+    public static final javax.jdo.spi.JDOPermission MANAGE_METADATA;
+    public static final javax.jdo.spi.JDOPermission SET_STATE_MANAGER;
+    public static final javax.jdo.spi.JDOPermission CLOSE_PERSISTENCE_MANAGER_FACTORY;
+}
+
+public interface javax.jdo.spi.PersistenceCapable {
+    public static final byte READ_WRITE_OK = 0;
+    public static final byte LOAD_REQUIRED = 1;
+    public static final byte READ_OK = -1;
+    public static final byte CHECK_READ = 1;
+    public static final byte MEDIATE_READ = 2;
+    public static final byte CHECK_WRITE = 4;
+    public static final byte MEDIATE_WRITE = 8;
+    public static final byte SERIALIZABLE = 16;
+    abstract javax.jdo.PersistenceManager jdoGetPersistenceManager();
+    abstract void jdoReplaceStateManager(javax.jdo.spi.StateManager sm) throws SecurityException;
+    abstract void jdoProvideField(int fieldNumber);
+    abstract void jdoProvideFields(int[] fieldNumbers);
+    abstract void jdoReplaceField(int fieldNumber);
+    abstract void jdoReplaceFields(int[] fieldNumbers);
+    abstract void jdoReplaceFlags();
+    abstract void jdoCopyFields(Object other, int[] fieldNumbers);
+    abstract void jdoMakeDirty(String fieldName);
+    abstract Object jdoGetObjectId();
+    abstract Object jdoGetTransactionalObjectId();
+    abstract Object jdoGetVersion();
+    abstract boolean jdoIsDirty();
+    abstract boolean jdoIsTransactional();
+    abstract boolean jdoIsPersistent();
+    abstract boolean jdoIsNew();
+    abstract boolean jdoIsDeleted();
+    abstract boolean jdoIsDetached();
+    abstract javax.jdo.spi.PersistenceCapable jdoNewInstance(javax.jdo.spi.StateManager sm);
+    abstract javax.jdo.spi.PersistenceCapable jdoNewInstance(javax.jdo.spi.StateManager sm, Object oid);
+    abstract Object jdoNewObjectIdInstance();
+    abstract Object jdoNewObjectIdInstance(Object o);
+    abstract void jdoCopyKeyFieldsToObjectId(Object oid);
+    abstract void jdoCopyKeyFieldsToObjectId(javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fm, Object oid);
+    abstract void jdoCopyKeyFieldsFromObjectId(javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fm, Object oid);
+}
+
+static public interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldManager extends javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer, javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier {
+}
+
+static public interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier {
+    abstract boolean fetchBooleanField(int fieldNumber);
+    abstract char fetchCharField(int fieldNumber);
+    abstract byte fetchByteField(int fieldNumber);
+    abstract short fetchShortField(int fieldNumber);
+    abstract int fetchIntField(int fieldNumber);
+    abstract long fetchLongField(int fieldNumber);
+    abstract float fetchFloatField(int fieldNumber);
+    abstract double fetchDoubleField(int fieldNumber);
+    abstract String fetchStringField(int fieldNumber);
+    abstract Object fetchObjectField(int fieldNumber);
+}
+
+static public interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer {
+    abstract void storeBooleanField(int fieldNumber, boolean value);
+    abstract void storeCharField(int fieldNumber, char value);
+    abstract void storeByteField(int fieldNumber, byte value);
+    abstract void storeShortField(int fieldNumber, short value);
+    abstract void storeIntField(int fieldNumber, int value);
+    abstract void storeLongField(int fieldNumber, long value);
+    abstract void storeFloatField(int fieldNumber, float value);
+    abstract void storeDoubleField(int fieldNumber, double value);
+    abstract void storeStringField(int fieldNumber, String value);
+    abstract void storeObjectField(int fieldNumber, Object value);
+}
+
+public class javax.jdo.spi.RegisterClassEvent extends java.util.EventObject {
+    public RegisterClassEvent(javax.jdo.spi.JDOImplHelper helper, Class registeredClass, String[] fieldNames, Class[] fieldTypes, byte[] fieldFlags, Class persistenceCapableSuperclass);
+    public Class getRegisteredClass();
+    public String[] getFieldNames();
+    public Class[] getFieldTypes();
+    public byte[] getFieldFlags();
+    public Class getPersistenceCapableSuperclass();
+}
+
+public interface javax.jdo.spi.RegisterClassListener extends java.util.EventListener {
+    abstract void registerClass(javax.jdo.spi.RegisterClassEvent event);
+}
+
+public interface javax.jdo.spi.StateInterrogation {
+    abstract Boolean isPersistent(Object pc);
+    abstract Boolean isTransactional(Object pc);
+    abstract Boolean isDirty(Object pc);
+    abstract Boolean isNew(Object pc);
+    abstract Boolean isDeleted(Object pc);
+    abstract Boolean isDetached(Object pc);
+    abstract javax.jdo.PersistenceManager getPersistenceManager(Object pc);
+    abstract Object getObjectId(Object pc);
+    abstract Object getTransactionalObjectId(Object pc);
+    abstract Object getVersion(Object pc);
+    abstract boolean makeDirty(Object pc, String fieldName);
+}
+
+public interface javax.jdo.spi.StateManager {
+    abstract byte replacingFlags(javax.jdo.spi.PersistenceCapable pc);
+    abstract javax.jdo.spi.StateManager replacingStateManager(javax.jdo.spi.PersistenceCapable pc, javax.jdo.spi.StateManager sm);
+    abstract boolean isDirty(javax.jdo.spi.PersistenceCapable pc);
+    abstract boolean isTransactional(javax.jdo.spi.PersistenceCapable pc);
+    abstract boolean isPersistent(javax.jdo.spi.PersistenceCapable pc);
+    abstract boolean isNew(javax.jdo.spi.PersistenceCapable pc);
+    abstract boolean isDeleted(javax.jdo.spi.PersistenceCapable pc);
+    abstract javax.jdo.PersistenceManager getPersistenceManager(javax.jdo.spi.PersistenceCapable pc);
+    abstract void makeDirty(javax.jdo.spi.PersistenceCapable pc, String fieldName);
+    abstract Object getObjectId(javax.jdo.spi.PersistenceCapable pc);
+    abstract Object getTransactionalObjectId(javax.jdo.spi.PersistenceCapable pc);
+    abstract Object getVersion(javax.jdo.spi.PersistenceCapable pc);
+    abstract boolean isLoaded(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract void preSerialize(javax.jdo.spi.PersistenceCapable pc);
+    abstract boolean getBooleanField(javax.jdo.spi.PersistenceCapable pc, int field, boolean currentValue);
+    abstract char getCharField(javax.jdo.spi.PersistenceCapable pc, int field, char currentValue);
+    abstract byte getByteField(javax.jdo.spi.PersistenceCapable pc, int field, byte currentValue);
+    abstract short getShortField(javax.jdo.spi.PersistenceCapable pc, int field, short currentValue);
+    abstract int getIntField(javax.jdo.spi.PersistenceCapable pc, int field, int currentValue);
+    abstract long getLongField(javax.jdo.spi.PersistenceCapable pc, int field, long currentValue);
+    abstract float getFloatField(javax.jdo.spi.PersistenceCapable pc, int field, float currentValue);
+    abstract double getDoubleField(javax.jdo.spi.PersistenceCapable pc, int field, double currentValue);
+    abstract String getStringField(javax.jdo.spi.PersistenceCapable pc, int field, String currentValue);
+    abstract Object getObjectField(javax.jdo.spi.PersistenceCapable pc, int field, Object currentValue);
+    abstract void setBooleanField(javax.jdo.spi.PersistenceCapable pc, int field, boolean currentValue, boolean newValue);
+    abstract void setCharField(javax.jdo.spi.PersistenceCapable pc, int field, char currentValue, char newValue);
+    abstract void setByteField(javax.jdo.spi.PersistenceCapable pc, int field, byte currentValue, byte newValue);
+    abstract void setShortField(javax.jdo.spi.PersistenceCapable pc, int field, short currentValue, short newValue);
+    abstract void setIntField(javax.jdo.spi.PersistenceCapable pc, int field, int currentValue, int newValue);
+    abstract void setLongField(javax.jdo.spi.PersistenceCapable pc, int field, long currentValue, long newValue);
+    abstract void setFloatField(javax.jdo.spi.PersistenceCapable pc, int field, float currentValue, float newValue);
+    abstract void setDoubleField(javax.jdo.spi.PersistenceCapable pc, int field, double currentValue, double newValue);
+    abstract void setStringField(javax.jdo.spi.PersistenceCapable pc, int field, String currentValue, String newValue);
+    abstract void setObjectField(javax.jdo.spi.PersistenceCapable pc, int field, Object currentValue, Object newValue);
+    abstract void providedBooleanField(javax.jdo.spi.PersistenceCapable pc, int field, boolean currentValue);
+    abstract void providedCharField(javax.jdo.spi.PersistenceCapable pc, int field, char currentValue);
+    abstract void providedByteField(javax.jdo.spi.PersistenceCapable pc, int field, byte currentValue);
+    abstract void providedShortField(javax.jdo.spi.PersistenceCapable pc, int field, short currentValue);
+    abstract void providedIntField(javax.jdo.spi.PersistenceCapable pc, int field, int currentValue);
+    abstract void providedLongField(javax.jdo.spi.PersistenceCapable pc, int field, long currentValue);
+    abstract void providedFloatField(javax.jdo.spi.PersistenceCapable pc, int field, float currentValue);
+    abstract void providedDoubleField(javax.jdo.spi.PersistenceCapable pc, int field, double currentValue);
+    abstract void providedStringField(javax.jdo.spi.PersistenceCapable pc, int field, String currentValue);
+    abstract void providedObjectField(javax.jdo.spi.PersistenceCapable pc, int field, Object currentValue);
+    abstract boolean replacingBooleanField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract char replacingCharField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract byte replacingByteField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract short replacingShortField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract int replacingIntField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract long replacingLongField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract float replacingFloatField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract double replacingDoubleField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract String replacingStringField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract Object replacingObjectField(javax.jdo.spi.PersistenceCapable pc, int field);
+    abstract Object[] replacingDetachedState(javax.jdo.spi.Detachable pc, Object[] state);
+}
+
+public interface javax.jdo.Transaction {
+    abstract void begin();
+    abstract void commit();
+    abstract void rollback();
+    abstract boolean isActive();
+    abstract boolean getRollbackOnly();
+    abstract void setRollbackOnly();
+    abstract void setNontransactionalRead(boolean nontransactionalRead);
+    abstract boolean getNontransactionalRead();
+    abstract void setNontransactionalWrite(boolean nontransactionalWrite);
+    abstract boolean getNontransactionalWrite();
+    abstract void setRetainValues(boolean retainValues);
+    abstract boolean getRetainValues();
+    abstract void setRestoreValues(boolean restoreValues);
+    abstract boolean getRestoreValues();
+    abstract void setOptimistic(boolean optimistic);
+    abstract boolean getOptimistic();
+    abstract void setIsolationLevel(String level);
+    abstract String getIsolationLevel();
+    abstract void setSynchronization(javax.transaction.Synchronization sync);
+    abstract javax.transaction.Synchronization getSynchronization();
+    abstract javax.jdo.PersistenceManager getPersistenceManager();
+    abstract Boolean getSerializeRead();
+    abstract void setSerializeRead(Boolean);
+}
+
+public interface javax.jdo.AttributeConverter
+{
+    abstract Object convertToDatastore(Object attributeValue);
+    abstract Object convertToAttribute(Object datastoreValue);
+}
+
+public final enum javax.jdo.ObjectState extends java.lang.Enum {
+
+    public static final enum javax.jdo.ObjectState TRANSIENT;
+    public static final enum javax.jdo.ObjectState TRANSIENT_CLEAN;
+    public static final enum javax.jdo.ObjectState TRANSIENT_DIRTY;
+    public static final enum javax.jdo.ObjectState PERSISTENT_NEW;
+    public static final enum javax.jdo.ObjectState HOLLOW_PERSISTENT_NONTRANSACTIONAL;
+    public static final enum javax.jdo.ObjectState PERSISTENT_NONTRANSACTIONAL_DIRTY;
+    public static final enum javax.jdo.ObjectState PERSISTENT_CLEAN;
+    public static final enum javax.jdo.ObjectState PERSISTENT_DIRTY;
+    public static final enum javax.jdo.ObjectState PERSISTENT_DELETED;
+    public static final enum javax.jdo.ObjectState PERSISTENT_NEW_DELETED;
+    public static final enum javax.jdo.ObjectState DETACHED_CLEAN;
+    public static final enum javax.jdo.ObjectState DETACHED_DIRTY;
+    public static enum javax.jdo.ObjectState valueOf(java.lang.String);
+    public static javax.jdo.ObjectState[] values();
+    public String toString();
+}
+
+public annotation javax.jdo.annotations.Column extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String target() default "";
+    abstract String targetMember() default "";
+    abstract String jdbcType() default "";
+    abstract String sqlType() default "";
+    abstract int length() default -1;
+    abstract int scale() default -1;
+    abstract String allowsNull() default "";
+    abstract String defaultValue() default "";
+    abstract String insertValue() default "";
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+    abstract int position() default -1;
+}
+
+public annotation javax.jdo.annotations.Columns extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Column[] value();
+}
+
+public annotation javax.jdo.annotations.DatastoreIdentity extends java.lang.annotation.Annotation
+{
+    abstract enum javax.jdo.annotations.IdGeneratorStrategy strategy() default javax.jdo.annotations.IdGeneratorStrategy.UNSPECIFIED;
+    abstract String customStrategy() default "";
+    abstract String sequence() default "";
+    abstract String column() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Discriminator extends java.lang.annotation.Annotation
+{
+    abstract enum javax.jdo.annotations.DiscriminatorStrategy strategy() 
+        default javax.jdo.annotations.DiscriminatorStrategy.UNSPECIFIED;
+    abstract String customStrategy() default "";
+    abstract String indexed() default "";
+    abstract String column() default "";
+    abstract String value() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+}
+
+public final enum javax.jdo.annotations.DiscriminatorStrategy extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.DiscriminatorStrategy UNSPECIFIED;
+    public static final enum javax.jdo.annotations.DiscriminatorStrategy NONE;
+    public static final enum javax.jdo.annotations.DiscriminatorStrategy VALUE_MAP;
+    public static final enum javax.jdo.annotations.DiscriminatorStrategy CLASS_NAME;
+    public static enum javax.jdo.annotations.DiscriminatorStrategy valueOf(java.lang.String);
+    public static javax.jdo.annotations.DiscriminatorStrategy[] values();
+}
+
+public annotation javax.jdo.annotations.Element extends java.lang.annotation.Annotation
+{
+    abstract Class[] types() default {};
+    abstract String serialized() default "";
+    abstract String embedded() default "";
+    abstract javax.jdo.annotations.Embedded[] embeddedMapping() default {};
+    abstract String dependent() default "";
+    abstract String table() default "";
+    abstract String column() default "";
+    abstract enum javax.jdo.annotations.ForeignKeyAction deleteAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract enum javax.jdo.annotations.ForeignKeyAction updateAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract String indexed() default "";
+    abstract String index() default "";
+    abstract String unique() default "";
+    abstract String uniqueKey() default "";
+    abstract String mappedBy() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract String generateForeignKey() default "";
+    abstract String foreignKey() default "";
+    abstract Class converter() default javax.jdo.AttributeConverter$UseDefault.class;
+    abstract boolean useDefaultConversion() default false;
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Embedded extends java.lang.annotation.Annotation
+{
+    abstract String ownerMember() default "";
+    abstract String nullIndicatorColumn() default "";
+    abstract String nullIndicatorValue() default "";
+    abstract javax.jdo.annotations.Persistent[] members() default {};
+    abstract javax.jdo.annotations.Discriminator discriminatorColumnName() default @javax.jdo.annotations.Discriminator;
+}
+
+public annotation javax.jdo.annotations.EmbeddedOnly extends java.lang.annotation.Annotation
+{
+}
+
+public annotation javax.jdo.annotations.Extension extends java.lang.annotation.Annotation
+{
+    abstract String vendorName();
+    abstract String key();
+    abstract String value();
+}
+
+public annotation javax.jdo.annotations.Extensions extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Extension[] value();
+}
+
+public annotation javax.jdo.annotations.FetchGroup extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String postLoad() default "";
+    abstract javax.jdo.annotations.Persistent[] members();
+    abstract String[] fetchGroups() default {};
+}
+
+public annotation javax.jdo.annotations.FetchGroups extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.FetchGroup[] value();
+}
+
+public annotation javax.jdo.annotations.FetchPlan extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String[] fetchGroups() default {};
+    abstract int maxFetchDepth() default 1;
+    abstract int fetchSize() default 0;
+}
+
+public annotation javax.jdo.annotations.FetchPlans extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.FetchPlan[] value();
+}
+
+public annotation javax.jdo.annotations.ForeignKey extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String table() default "";
+    abstract String deferred() default "";
+    abstract String unique() default "";
+    abstract enum javax.jdo.annotations.ForeignKeyAction deleteAction() default javax.jdo.annotations.ForeignKeyAction.RESTRICT;
+    abstract enum javax.jdo.annotations.ForeignKeyAction updateAction() default javax.jdo.annotations.ForeignKeyAction.RESTRICT;
+    abstract String[] members() default {};
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public final enum javax.jdo.annotations.ForeignKeyAction extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.ForeignKeyAction UNSPECIFIED;
+    public static final enum javax.jdo.annotations.ForeignKeyAction RESTRICT;
+    public static final enum javax.jdo.annotations.ForeignKeyAction CASCADE;
+    public static final enum javax.jdo.annotations.ForeignKeyAction NULL;
+    public static final enum javax.jdo.annotations.ForeignKeyAction DEFAULT;
+    public static final enum javax.jdo.annotations.ForeignKeyAction NONE;
+    public static enum javax.jdo.annotations.ForeignKeyAction valueOf(java.lang.String);
+    public static javax.jdo.annotations.ForeignKeyAction[] values();
+}
+
+public annotation javax.jdo.annotations.ForeignKeys extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.ForeignKey[] value();
+}
+
+public final enum javax.jdo.annotations.IdGeneratorStrategy extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy UNSPECIFIED;
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy NATIVE;
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy SEQUENCE;
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy IDENTITY;
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy INCREMENT;
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy UUIDSTRING;
+    public static final enum javax.jdo.annotations.IdGeneratorStrategy UUIDHEX;
+    public static enum javax.jdo.annotations.IdGeneratorStrategy valueOf(java.lang.String);
+    public static javax.jdo.annotations.IdGeneratorStrategy[] values();
+}
+
+public final enum javax.jdo.annotations.IdentityType extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.IdentityType UNSPECIFIED;
+    public static final enum javax.jdo.annotations.IdentityType APPLICATION;
+    public static final enum javax.jdo.annotations.IdentityType DATASTORE;
+    public static final enum javax.jdo.annotations.IdentityType NONDURABLE;
+    public static enum javax.jdo.annotations.IdentityType valueOf(java.lang.String);
+    public static javax.jdo.annotations.IdentityType[] values();
+}
+
+public annotation javax.jdo.annotations.Index extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String table() default "";
+    abstract String unique() default "";
+    abstract String[] members() default {};
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Indices extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Index[] value();
+}
+
+public annotation javax.jdo.annotations.Inheritance extends java.lang.annotation.Annotation
+{
+    abstract enum javax.jdo.annotations.InheritanceStrategy strategy() default javax.jdo.annotations.InheritanceStrategy.UNSPECIFIED;
+    abstract String customStrategy() default "";
+}
+
+public final enum javax.jdo.annotations.InheritanceStrategy extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.InheritanceStrategy UNSPECIFIED;
+    public static final enum javax.jdo.annotations.InheritanceStrategy NEW_TABLE;
+    public static final enum javax.jdo.annotations.InheritanceStrategy SUBCLASS_TABLE;
+    public static final enum javax.jdo.annotations.InheritanceStrategy SUPERCLASS_TABLE;
+    public static final enum javax.jdo.annotations.InheritanceStrategy COMPLETE_TABLE;
+    public static enum javax.jdo.annotations.InheritanceStrategy valueOf(java.lang.String);
+    public static javax.jdo.annotations.InheritanceStrategy[] values();
+}
+
+public annotation javax.jdo.annotations.Join extends java.lang.annotation.Annotation
+{
+    abstract String table() default "";
+    abstract String column() default "";
+    abstract String indexed() default "";
+    abstract String index() default "";
+    abstract String unique() default "";
+    abstract String uniqueKey() default "";
+    abstract String outer() default "";
+    abstract enum javax.jdo.annotations.ForeignKeyAction deleteAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract String generatePrimaryKey() default "";
+    abstract String primaryKey() default "";
+    abstract String generateForeignKey() default "";
+    abstract String foreignKey() default "";
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Joins extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Join[] value();
+}
+
+public annotation javax.jdo.annotations.Key extends java.lang.annotation.Annotation
+{
+    abstract Class[] types() default {};
+    abstract String serialized() default "";
+    abstract String embedded() default "";
+    abstract javax.jdo.annotations.Embedded[] embeddedMapping() default {};
+    abstract String dependent() default "";
+    abstract String table() default "";
+    abstract String column() default "";
+    abstract enum javax.jdo.annotations.ForeignKeyAction deleteAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract enum javax.jdo.annotations.ForeignKeyAction updateAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract String indexed() default "";
+    abstract String index() default "";
+    abstract String unique() default "";
+    abstract String uniqueKey() default "";
+    abstract String mappedBy() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract String generateForeignKey() default "";
+    abstract String foreignKey() default "";
+    abstract Class converter() default javax.jdo.AttributeConverter$UseDefault.class;
+    abstract boolean useDefaultConversion() default false;
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.NotPersistent extends java.lang.annotation.Annotation
+{
+}
+
+public final enum javax.jdo.annotations.NullValue extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.NullValue NONE;
+    public static final enum javax.jdo.annotations.NullValue EXCEPTION;
+    public static final enum javax.jdo.annotations.NullValue DEFAULT;
+    public static enum javax.jdo.annotations.NullValue valueOf(java.lang.String);
+    public static javax.jdo.annotations.NullValue[] values();
+}
+
+public annotation javax.jdo.annotations.Order extends java.lang.annotation.Annotation
+{
+    abstract String column() default "";
+    abstract String mappedBy() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.PersistenceAware extends java.lang.annotation.Annotation
+{
+}
+
+public annotation javax.jdo.annotations.PersistenceCapable extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Persistent[] members() default {};
+    abstract String table() default "";
+    abstract String catalog() default "";
+    abstract String schema() default "";
+    abstract String requiresExtent() default "";
+    abstract String embeddedOnly() default "";
+    abstract String detachable() default "";
+    abstract enum javax.jdo.annotations.IdentityType identityType() default javax.jdo.annotations.IdentityType.UNSPECIFIED;
+    abstract Class objectIdClass() default void.class;
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+    abstract String cacheable() default "true";
+    abstract String serializeRead() default "false";
+}
+
+public final enum javax.jdo.annotations.PersistenceModifier extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.PersistenceModifier UNSPECIFIED;
+    public static final enum javax.jdo.annotations.PersistenceModifier PERSISTENT;
+    public static final enum javax.jdo.annotations.PersistenceModifier TRANSACTIONAL;
+    public static final enum javax.jdo.annotations.PersistenceModifier NONE;
+    public static enum javax.jdo.annotations.PersistenceModifier valueOf(java.lang.String);
+    public static javax.jdo.annotations.PersistenceModifier[] values();
+}
+
+public annotation javax.jdo.annotations.Persistent extends java.lang.annotation.Annotation
+{
+    abstract enum javax.jdo.annotations.PersistenceModifier persistenceModifier() 
+        default javax.jdo.annotations.PersistenceModifier.UNSPECIFIED;
+    abstract String table() default "";
+    abstract String defaultFetchGroup() default "";
+    abstract enum javax.jdo.annotations.NullValue nullValue() default javax.jdo.annotations.NullValue.NONE;
+    abstract String embedded() default "";
+    abstract String embeddedElement() default "";
+    abstract String embeddedKey() default "";
+    abstract String embeddedValue() default "";
+    abstract String serialized() default "";
+    abstract String serializedElement() default "";
+    abstract String serializedKey() default "";
+    abstract String serializedValue() default "";
+    abstract String dependent() default "";
+    abstract String dependentElement() default "";
+    abstract String dependentKey() default "";
+    abstract String dependentValue() default "";
+    abstract String primaryKey() default "";
+    abstract enum javax.jdo.annotations.IdGeneratorStrategy valueStrategy() default javax.jdo.annotations.IdGeneratorStrategy.UNSPECIFIED;
+    abstract String customValueStrategy() default "";
+    abstract String sequence() default "";
+    abstract String loadFetchGroup() default "";
+    abstract Class[] types() default {};
+    abstract String mappedBy() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {}; 
+    abstract String column() default "";
+    abstract String nullIndicatorColumn() default "";
+    abstract String name() default ""; 
+    abstract int recursionDepth() default 1;
+    abstract Class converter() default javax.jdo.AttributeConverter$UseDefault.class;
+    abstract boolean useDefaultConversion() default false;
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+    abstract String cacheable() default "true";
+}
+
+public annotation javax.jdo.annotations.PrimaryKey extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String column() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Queries extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Query[] value();
+}
+
+public annotation javax.jdo.annotations.Query extends java.lang.annotation.Annotation
+{
+    abstract String name();
+    abstract String value();
+    abstract String language() default "JDOQL";
+    abstract String unmodifiable() default "";
+    abstract String unique() default "";
+    abstract Class resultClass() default void.class;
+    abstract String fetchPlan() default "";
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Sequence extends java.lang.annotation.Annotation
+{
+    abstract String name();
+    abstract enum javax.jdo.annotations.SequenceStrategy strategy();
+    abstract String datastoreSequence() default "";
+    abstract Class factoryClass() default void.class;
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+    abstract int initialValue() default 1;
+    abstract int allocationSize() default 50;
+}
+
+public final enum javax.jdo.annotations.SequenceStrategy extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.SequenceStrategy NONTRANSACTIONAL;
+    public static final enum javax.jdo.annotations.SequenceStrategy CONTIGUOUS;
+    public static final enum javax.jdo.annotations.SequenceStrategy NONCONTIGUOUS;
+    public static enum javax.jdo.annotations.SequenceStrategy valueOf(java.lang.String);
+    public static javax.jdo.annotations.SequenceStrategy[] values();
+}
+
+public annotation javax.jdo.annotations.Serialized extends java.lang.annotation.Annotation
+{
+}
+
+public annotation javax.jdo.annotations.Transactional extends java.lang.annotation.Annotation
+{
+}
+
+public annotation javax.jdo.annotations.Unique extends java.lang.annotation.Annotation
+{
+    abstract String name() default "";
+    abstract String table() default "";
+    abstract String deferred() default "";
+    abstract String[] members() default {};
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Uniques extends java.lang.annotation.Annotation
+{
+    abstract javax.jdo.annotations.Unique[] value();
+}
+
+public annotation javax.jdo.annotations.Value extends java.lang.annotation.Annotation
+{
+    abstract Class[] types() default {};
+    abstract String serialized() default "";
+    abstract String embedded() default "";
+    abstract javax.jdo.annotations.Embedded[] embeddedMapping() default {};
+    abstract String dependent() default "";
+    abstract String table() default "";
+    abstract String column() default "";
+    abstract enum javax.jdo.annotations.ForeignKeyAction deleteAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract enum javax.jdo.annotations.ForeignKeyAction updateAction() default javax.jdo.annotations.ForeignKeyAction.UNSPECIFIED;
+    abstract String indexed() default "";
+    abstract String index() default "";
+    abstract String unique() default "";
+    abstract String uniqueKey() default "";
+    abstract String mappedBy() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract String generateForeignKey() default "";
+    abstract String foreignKey() default "";
+    abstract Class converter() default javax.jdo.AttributeConverter$UseDefault.class;
+    abstract boolean useDefaultConversion() default false;
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public annotation javax.jdo.annotations.Version extends java.lang.annotation.Annotation
+{
+    abstract enum javax.jdo.annotations.VersionStrategy strategy() default javax.jdo.annotations.VersionStrategy.UNSPECIFIED;
+    abstract String customStrategy() default "";
+    abstract String column() default "";
+    abstract String indexed() default "";
+    abstract javax.jdo.annotations.Column[] columns() default {};
+    abstract javax.jdo.annotations.Extension[] extensions() default {};
+}
+
+public final enum javax.jdo.annotations.VersionStrategy extends java.lang.Enum
+{
+    public static final enum javax.jdo.annotations.VersionStrategy UNSPECIFIED;
+    public static final enum javax.jdo.annotations.VersionStrategy NONE;
+    public static final enum javax.jdo.annotations.VersionStrategy STATE_IMAGE;
+    public static final enum javax.jdo.annotations.VersionStrategy DATE_TIME;
+    public static final enum javax.jdo.annotations.VersionStrategy VERSION_NUMBER;
+    public static enum javax.jdo.annotations.VersionStrategy valueOf(java.lang.String);
+    public static javax.jdo.annotations.VersionStrategy[] values();
+}
+
+public annotation javax.jdo.annotations.Cacheable extends java.lang.annotation.Annotation
+{
+    abstract String value() default "true";
+}
+
+public interface javax.jdo.FetchGroup 
+{
+    public static final String DEFAULT = "default";
+    public static final String RELATIONSHIP = "relationship";
+    public static final String MULTIVALUED = "multivalued";
+    public static final String BASIC = "basic";
+    public static final String ALL = "all";
+    abstract String getName();
+    abstract Class getType();
+    abstract boolean getPostLoad();
+    abstract javax.jdo.FetchGroup setPostLoad(boolean postLoad);
+    abstract javax.jdo.FetchGroup addMember(String memberName);
+    abstract varargs javax.jdo.FetchGroup addMembers(String[] memberNames);
+    abstract javax.jdo.FetchGroup removeMember(String memberName);
+    abstract varargs javax.jdo.FetchGroup removeMembers(String[] memberNames);
+    abstract javax.jdo.FetchGroup addCategory(String categoryName);
+    abstract javax.jdo.FetchGroup removeCategory(String categoryName);
+    abstract javax.jdo.FetchGroup setRecursionDepth(String memberName, int recursionDepth);
+    abstract int getRecursionDepth(String memberName);
+    abstract java.util.Set getMembers();
+    abstract javax.jdo.FetchGroup setUnmodifiable();
+    abstract boolean isUnmodifiable();
+    abstract int hashCode();
+    abstract boolean equals(Object other);
+}
+
+public interface javax.jdo.JDOQLTypedQuery extends java.io.Serializable, java.io.Closeable 
+{
+    public static final String QUERY_CLASS_PREFIX;
+    abstract javax.jdo.query.PersistableExpression candidate();
+    abstract javax.jdo.query.Expression parameter(String name, Class type);
+    abstract javax.jdo.query.StringExpression stringParameter(String name);
+    abstract javax.jdo.query.CharacterExpression characterParameter(String name);
+    abstract javax.jdo.query.NumericExpression numericParameter(String name);
+    javax.jdo.query.NumericExpression numericParameter(String name, Class type);
+    abstract javax.jdo.query.DateExpression dateParameter(String name);
+    abstract javax.jdo.query.TimeExpression timeParameter(String name);
+    abstract javax.jdo.query.DateTimeExpression datetimeParameter(String name);
+    abstract javax.jdo.query.CollectionExpression collectionParameter(String name);
+    javax.jdo.query.CollectionExpression collectionParameter(String name, Class elementType);
+    abstract javax.jdo.query.MapExpression mapParameter(String name);
+    javax.jdo.query.MapExpression mapParameter(String name, Class keyType, Class valueType);
+    abstract javax.jdo.query.ListExpression listParameter(String name);
+    javax.jdo.query.ListExpression listParameter(String name, Class elementType);
+    abstract javax.jdo.query.Expression variable(String name, Class type);
+    abstract javax.jdo.JDOQLTypedQuery setCandidates(java.util.Collection candidates);
+    abstract javax.jdo.JDOQLTypedQuery excludeSubclasses();
+    abstract javax.jdo.JDOQLTypedQuery includeSubclasses();
+    abstract javax.jdo.JDOQLTypedQuery filter(javax.jdo.query.BooleanExpression expr);
+    abstract javax.jdo.query.IfThenElseExpression ifThen(java.lang.Class, javax.jdo.query.BooleanExpression, javax.jdo.query.Expression);
+    abstract javax.jdo.query.IfThenElseExpression ifThen(javax.jdo.query.BooleanExpression, java.lang.Object);
+    abstract javax.jdo.query.IfThenElseExpression ifThenElse(javax.jdo.query.BooleanExpression, java.lang.Object, java.lang.Object);
+    abstract javax.jdo.query.IfThenElseExpression ifThenElse(javax.jdo.query.BooleanExpression, javax.jdo.query.Expression, java.lang.Object);
+    abstract javax.jdo.query.IfThenElseExpression ifThenElse(javax.jdo.query.BooleanExpression, java.lang.Object, javax.jdo.query.Expression);
+    abstract javax.jdo.query.IfThenElseExpression ifThenElse(java.lang.Class, javax.jdo.query.BooleanExpression, javax.jdo.query.Expression, javax.jdo.query.Expression);
+    abstract varargs javax.jdo.JDOQLTypedQuery groupBy(javax.jdo.query.Expression[] exprs);
+    abstract javax.jdo.JDOQLTypedQuery having(javax.jdo.query.Expression expr);
+    abstract varargs javax.jdo.JDOQLTypedQuery orderBy(javax.jdo.query.OrderExpression[] orderExprs);
+    abstract varargs javax.jdo.JDOQLTypedQuery result(boolean distinct, javax.jdo.query.Expression[] exprs);
+    abstract javax.jdo.JDOQLTypedQuery range(javax.jdo.query.NumericExpression lowerInclExpr, javax.jdo.query.NumericExpression upperExclExpr);
+    abstract javax.jdo.JDOQLTypedQuery range(long lowerIncl, long upperExcl);
+    abstract javax.jdo.JDOQLTypedQuery range(javax.jdo.query.Expression paramLowerInclExpr, javax.jdo.query.Expression paramUpperExclExpr);
+    abstract javax.jdo.JDOQLTypedSubquery subquery(String candidateAlias);
+    abstract javax.jdo.JDOQLTypedSubquery subquery(Class candidate, String candidateAlias);
+    abstract javax.jdo.JDOQLTypedSubquery subquery(javax.jdo.query.CollectionExpression candidateCollection, Class candidate , String candidateAlias);
+    abstract javax.jdo.JDOQLTypedQuery setParameters(java.util.Map namedParamMap);
+    abstract javax.jdo.JDOQLTypedQuery setParameter(javax.jdo.query.Expression paramExpr, Object value);
+    abstract javax.jdo.JDOQLTypedQuery setParameter(String paramName, Object value);
+    abstract java.util.List executeList();
+    abstract Object executeUnique();
+    abstract java.util.List executeResultList(Class resultCls);
+    abstract Object executeResultUnique(Class resultCls);
+    abstract java.util.List executeResultList();
+    abstract Object executeResultUnique();
+    abstract long deletePersistentAll();
+    abstract Integer getDatastoreReadTimeoutMillis();
+    abstract javax.jdo.JDOQLTypedQuery datastoreReadTimeoutMillis(Integer interval);
+    abstract Integer getDatastoreWriteTimeoutMillis();
+    abstract javax.jdo.JDOQLTypedQuery datastoreWriteTimeoutMillis(Integer interval);
+    abstract Boolean getSerializeRead();
+    abstract javax.jdo.JDOQLTypedQuery serializeRead(Boolean serialize);
+    abstract boolean isUnmodifiable();
+    abstract javax.jdo.JDOQLTypedQuery unmodifiable();
+    abstract boolean getIgnoreCache();
+    abstract javax.jdo.JDOQLTypedQuery ignoreCache(boolean flag);
+    abstract javax.jdo.JDOQLTypedQuery extension(String key, Object value);
+    abstract javax.jdo.JDOQLTypedQuery extensions(java.util.Map values);
+    abstract javax.jdo.JDOQLTypedQuery saveAsNamedQuery(String name);
+    abstract javax.jdo.PersistenceManager getPersistenceManager();
+    abstract javax.jdo.FetchPlan getFetchPlan();
+    abstract void cancelAll();
+    abstract void cancel(Thread thread);
+    abstract void close(Object result);
+    abstract void closeAll();
+    abstract String toString();
+}
+
+public interface javax.jdo.JDOQLTypedSubquery extends java.io.Serializable 
+{
+    abstract javax.jdo.query.PersistableExpression candidate();
+    abstract javax.jdo.JDOQLTypedSubquery filter(javax.jdo.query.BooleanExpression expr);
+    abstract varargs javax.jdo.JDOQLTypedSubquery groupBy(javax.jdo.query.Expression[] exprs);
+    abstract javax.jdo.JDOQLTypedSubquery having(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.NumericExpression selectUnique(javax.jdo.query.NumericExpression expr);
+    abstract javax.jdo.query.StringExpression selectUnique(javax.jdo.query.StringExpression expr);
+    abstract javax.jdo.query.DateExpression selectUnique(javax.jdo.query.DateExpression expr);
+    abstract javax.jdo.query.DateTimeExpression selectUnique(javax.jdo.query.DateTimeExpression expr);
+    abstract javax.jdo.query.TimeExpression selectUnique(javax.jdo.query.TimeExpression expr);
+    abstract javax.jdo.query.CharacterExpression selectUnique(javax.jdo.query.CharacterExpression expr);
+    abstract javax.jdo.query.CollectionExpression select(javax.jdo.query.CollectionExpression expr);
+}
+
+public interface javax.jdo.query.BooleanExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.BooleanExpression and(javax.jdo.query.BooleanExpression expr);
+    abstract javax.jdo.query.BooleanExpression or(javax.jdo.query.BooleanExpression expr);
+    abstract javax.jdo.query.BooleanExpression not();
+    abstract javax.jdo.query.BooleanExpression neg();
+}
+
+public interface javax.jdo.query.ByteExpression extends javax.jdo.query.ComparableExpression
+{
+}
+
+public interface javax.jdo.query.CharacterExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.CharacterExpression toLowerCase();
+    abstract javax.jdo.query.CharacterExpression toUpperCase();
+    abstract javax.jdo.query.CharacterExpression neg();
+    abstract javax.jdo.query.CharacterExpression com();
+}
+
+public interface javax.jdo.query.CollectionExpression extends javax.jdo.query.Expression
+{
+    abstract javax.jdo.query.BooleanExpression contains(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.BooleanExpression contains(Object elem);
+    abstract javax.jdo.query.BooleanExpression isEmpty();
+    abstract javax.jdo.query.NumericExpression size();
+}
+
+public interface javax.jdo.query.ComparableExpression extends javax.jdo.query.Expression
+{
+    abstract javax.jdo.query.BooleanExpression lt(javax.jdo.query.ComparableExpression expr);
+    abstract javax.jdo.query.BooleanExpression lt(Object t);
+    abstract javax.jdo.query.BooleanExpression lteq(javax.jdo.query.ComparableExpression expr);
+    abstract javax.jdo.query.BooleanExpression lteq(Object t);
+    abstract javax.jdo.query.BooleanExpression gt(javax.jdo.query.ComparableExpression expr);
+    abstract javax.jdo.query.BooleanExpression gt(Object t);
+    abstract javax.jdo.query.BooleanExpression gteq(javax.jdo.query.ComparableExpression expr);
+    abstract javax.jdo.query.BooleanExpression gteq(Object t);
+    abstract javax.jdo.query.ComparableExpression min();
+    abstract javax.jdo.query.ComparableExpression max();
+    abstract javax.jdo.query.OrderExpression asc();
+    abstract javax.jdo.query.OrderExpression desc();
+}
+
+public interface javax.jdo.query.DateExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.NumericExpression getYear();
+    abstract javax.jdo.query.NumericExpression getMonth();
+    abstract javax.jdo.query.NumericExpression getDay();
+}
+
+public interface javax.jdo.query.DateTimeExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.NumericExpression getYear();
+    abstract javax.jdo.query.NumericExpression getMonth();
+    abstract javax.jdo.query.NumericExpression getDay();
+    abstract javax.jdo.query.NumericExpression getHour();
+    abstract javax.jdo.query.NumericExpression getMinute();
+    abstract javax.jdo.query.NumericExpression getSecond();
+}
+
+public interface javax.jdo.query.EnumExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.NumericExpression ordinal();
+}
+
+public interface javax.jdo.query.Expression
+{
+    abstract javax.jdo.query.BooleanExpression eq(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.BooleanExpression eq(Object t);
+    abstract javax.jdo.query.BooleanExpression ne(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.BooleanExpression ne(Object t);
+    abstract javax.jdo.query.NumericExpression count();
+    abstract javax.jdo.query.NumericExpression countDistinct();
+    abstract javax.jdo.query.BooleanExpression instanceOf(Class cls);
+    abstract javax.jdo.query.Expression cast(Class cls);
+    abstract javax.jdo.query.Expression as(String alias);
+}
+
+public interface javax.jdo.query.ListExpression extends javax.jdo.query.CollectionExpression
+{
+    abstract javax.jdo.query.Expression get(javax.jdo.query.NumericExpression posExpr);
+    abstract javax.jdo.query.Expression get(int pos);
+}
+
+public interface javax.jdo.query.MapExpression extends javax.jdo.query.Expression
+{
+    abstract javax.jdo.query.Expression get(javax.jdo.query.Expression);
+    abstract javax.jdo.query.Expression get(java.lang.Object);
+    abstract javax.jdo.query.BooleanExpression containsKey(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.BooleanExpression containsKey(Object key);
+    abstract javax.jdo.query.BooleanExpression containsValue(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.BooleanExpression containsValue(Object value);
+    abstract javax.jdo.query.BooleanExpression containsEntry(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.BooleanExpression containsEntry(java.util.Map$Entry entry);
+    abstract javax.jdo.query.BooleanExpression isEmpty();
+    abstract javax.jdo.query.NumericExpression size();
+}
+
+public interface javax.jdo.query.NumericExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.NumericExpression add(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.NumericExpression add(Number num);
+    abstract javax.jdo.query.NumericExpression sub(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.NumericExpression sub(Number num);
+    abstract javax.jdo.query.NumericExpression mul(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.NumericExpression mul(Number num);
+    abstract javax.jdo.query.NumericExpression div(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.NumericExpression div(Number num);
+    abstract javax.jdo.query.NumericExpression mod(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.NumericExpression mod(Number num);
+    abstract javax.jdo.query.NumericExpression neg();
+    abstract javax.jdo.query.NumericExpression com();
+    abstract javax.jdo.query.NumericExpression avg();
+    abstract javax.jdo.query.NumericExpression avgDistinct();
+    abstract javax.jdo.query.NumericExpression sum();
+    abstract javax.jdo.query.NumericExpression sumDistinct();
+    abstract javax.jdo.query.NumericExpression abs();
+    abstract javax.jdo.query.NumericExpression sqrt();
+    abstract javax.jdo.query.NumericExpression acos();
+    abstract javax.jdo.query.NumericExpression asin();
+    abstract javax.jdo.query.NumericExpression atan();
+    abstract javax.jdo.query.NumericExpression sin();
+    abstract javax.jdo.query.NumericExpression cos();
+    abstract javax.jdo.query.NumericExpression tan();
+    abstract javax.jdo.query.NumericExpression exp();
+    abstract javax.jdo.query.NumericExpression log();
+    abstract javax.jdo.query.NumericExpression ceil();
+    abstract javax.jdo.query.NumericExpression floor();
+    abstract javax.jdo.query.NumericExpression bAnd(javax.jdo.query.NumericExpression bitExpr);
+    abstract javax.jdo.query.NumericExpression bOr(javax.jdo.query.NumericExpression bitExpr);
+    abstract javax.jdo.query.NumericExpression bXor(javax.jdo.query.NumericExpression bitExpr);
+}
+
+public interface javax.jdo.query.ObjectExpression extends javax.jdo.query.Expression
+{
+}
+
+public interface javax.jdo.query.OrderExpression
+{
+    abstract enum javax.jdo.query.OrderExpression$OrderDirection getDirection();
+    abstract javax.jdo.query.Expression getExpression();
+    abstract enum javax.jdo.query.OrderExpression$OrderNullsPosition getNullsPosition();
+    abstract javax.jdo.query.OrderExpression nullsFirst();
+    abstract javax.jdo.query.OrderExpression nullsLast();
+}
+
+public interface javax.jdo.query.PersistableExpression extends javax.jdo.query.Expression
+{
+    abstract javax.jdo.query.Expression jdoObjectId();
+    abstract javax.jdo.query.Expression jdoVersion();
+}
+
+public interface javax.jdo.query.StringExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.StringExpression add(javax.jdo.query.Expression expr);
+    abstract javax.jdo.query.StringExpression add(java.lang.String);
+    abstract javax.jdo.query.CharacterExpression charAt(int pos);
+    abstract javax.jdo.query.CharacterExpression charAt(javax.jdo.query.NumericExpression pos);
+    abstract javax.jdo.query.BooleanExpression endsWith(javax.jdo.query.StringExpression expr);
+    abstract javax.jdo.query.BooleanExpression endsWith(String str);
+    abstract javax.jdo.query.BooleanExpression equalsIgnoreCase(javax.jdo.query.StringExpression expr);
+    abstract javax.jdo.query.BooleanExpression equalsIgnoreCase(String str);
+    abstract javax.jdo.query.NumericExpression indexOf(javax.jdo.query.StringExpression expr);
+    abstract javax.jdo.query.NumericExpression indexOf(String str);
+    abstract javax.jdo.query.NumericExpression indexOf(javax.jdo.query.StringExpression expr, javax.jdo.query.NumericExpression pos);
+    abstract javax.jdo.query.NumericExpression indexOf(String str, javax.jdo.query.NumericExpression pos);
+    abstract javax.jdo.query.NumericExpression indexOf(String str, int pos);
+    abstract javax.jdo.query.NumericExpression indexOf(javax.jdo.query.StringExpression expr, int pos);
+    abstract javax.jdo.query.NumericExpression length();
+    abstract javax.jdo.query.BooleanExpression matches(javax.jdo.query.StringExpression expr);
+    abstract javax.jdo.query.BooleanExpression matches(String str);
+    abstract javax.jdo.query.BooleanExpression startsWith(javax.jdo.query.StringExpression expr);
+    abstract javax.jdo.query.BooleanExpression startsWith(String str);
+    abstract javax.jdo.query.BooleanExpression startsWith(javax.jdo.query.StringExpression, int);
+    abstract javax.jdo.query.BooleanExpression startsWith(java.lang.String, int);
+    abstract javax.jdo.query.StringExpression substring(javax.jdo.query.NumericExpression pos);
+    abstract javax.jdo.query.StringExpression substring(int pos);
+    abstract javax.jdo.query.StringExpression substring(javax.jdo.query.NumericExpression startPos, javax.jdo.query.NumericExpression endPos);
+    abstract javax.jdo.query.StringExpression substring(int startPos, int endPos);
+    abstract javax.jdo.query.StringExpression toLowerCase();
+    abstract javax.jdo.query.StringExpression toUpperCase();
+    abstract javax.jdo.query.StringExpression trim();
+}
+
+public interface javax.jdo.query.SubqueryExpression
+{
+}
+
+public interface javax.jdo.query.TimeExpression extends javax.jdo.query.ComparableExpression
+{
+    abstract javax.jdo.query.NumericExpression getHour();
+    abstract javax.jdo.query.NumericExpression getMinute();
+    abstract javax.jdo.query.NumericExpression getSecond();
+}
+
+/*** This causes some NPE in SignatureTest whatever that means ***/
+/*
+public interface javax.jdo.JDOEnhancer extends java.lang.instrument.ClassFileTransformer {
+    java.util.Properties getProperties();
+    javax.jdo.JDOEnhancer setVerbose(boolean flag);
+    javax.jdo.JDOEnhancer setOutputDirectory(String dirName);
+    javax.jdo.JDOEnhancer setClassLoader(ClassLoader loader);
+    javax.jdo.JDOEnhancer addPersistenceUnit(String persistenceUnit);
+    javax.jdo.JDOEnhancer addClass(String className, byte[] bytes);
+    javax.jdo.JDOEnhancer addClasses(String... classNames);
+    javax.jdo.JDOEnhancer addFiles(String... metadataFiles);
+    javax.jdo.JDOEnhancer addJar(String jarFileName);
+    int enhance();
+    int validate();
+    byte[] getEnhancedBytes(String className);
+    void registerMetadata(javax.jdo.metadata.JDOMetadata metadata);
+    javax.jdo.metadata.JDOMetadata newMetadata();
+} */

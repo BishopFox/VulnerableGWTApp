@@ -1,0 +1,3 @@
+17:39:35,959 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as applicationidentity0 but for this datastore this has been changed to APPLICATIONIDENTITY0. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:39:37,557 (main) WARN  [DataNucleus.Persistence] - Trying to find mapping for type org.apache.jdo.tck.pc.mylib.Point but none found, and only serialised available! Falling back to SerialisedMapping
+17:39:37,705 (main) WARN  [DataNucleus.Persistence] - Trying to find mapping for type org.apache.jdo.tck.pc.mylib.Point but none found, and only serialised available! Falling back to SerialisedMapping

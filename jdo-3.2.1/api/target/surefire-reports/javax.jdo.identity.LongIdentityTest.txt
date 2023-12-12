@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: javax.jdo.identity.LongIdentityTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in javax.jdo.identity.LongIdentityTest

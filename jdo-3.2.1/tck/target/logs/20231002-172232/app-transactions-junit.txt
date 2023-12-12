@@ -1,0 +1,35 @@
+RUN AfterCompletionMethodCalledWhenCommitted.test	
+RUN AfterCompletionMethodCalledWhenRolledback.test	
+RUN AfterSetRollbackOnlyCommitFails.test	
+RUN BeforeCompletionMethodCalled.test	
+RUN BeforeCompletionMethodNotCalledBeforeRollback.test	
+RUN Commit.test	
+RUN GetPersistenceManager.test	
+RUN GetRetainValues.test	
+RUN GetRollbackOnlyReturnsFalseUntilSet.test	
+RUN GetSynchronization.test	
+RUN IsActive.test	
+RUN IsActiveUntilAfterCompletionMethodCalled.test	
+RUN Rollback.test	
+RUN SetIsolationLevel.testSetIsolationLevelWithActiveDataStoreTransaction	
+RUN SetIsolationLevel.testSetIsolationLevelOutsideTransaction	
+RUN SetIsolationLevel.testSetIsolationLevelWithActiveOptimisticTransaction	
+RUN SetNontransactionalRead.test	
+RUN WhenNontransactionalReadIsFalse.test	
+RUN SetNontransactionalReadCalledDuringTxCompletion.test	
+RUN SetNontransactionalWriteCalledDuringTxCompletion.test	
+RUN SetNontransactionalReadTrueWhenNotSupported.test	
+RUN SetOptimistic.test	
+RUN SetOptimisticCalledDuringTxCompletion.test	
+RUN SetOptimisticDuringTransaction.test	
+RUN SetOptimisticTrueWhenNotSupported.test	
+RUN SetRetainValues.test	
+RUN SetRetainValuesCalledDuringTxCompletion.test	
+RUN SetRetainValuesTrueWhenNotSupported.test	
+RUN SetSynchronization.test	
+RUN SetSynchronizationToNull.test	
+Description: null
+Time: 005
+app-transactions-junit.txt:
+    OK Tests run: 030, Time: 005 seconds.
+Excluded tests: 

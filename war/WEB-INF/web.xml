@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>stockPriceServiceImpl</servlet-name>
+    <servlet-class>com.google.gwt.sample.stockwatcher.server.StockPriceServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>stockPriceServiceImpl</servlet-name>
+    <url-pattern>/stockwatcher/stockPrices</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>checkCustomClassServiceImpl</servlet-name>
+    <servlet-class>com.google.gwt.sample.stockwatcher.server.CheckCustomClassServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>checkCustomClassServiceImpl</servlet-name>
+    <url-pattern>/stockwatcher/checkCustomClass1</url-pattern>
+  </servlet-mapping>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>StockWatcher.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

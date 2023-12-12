@@ -1,0 +1,6 @@
+RUN CompletenessTest.test	
+Description: null
+Time: 002
+app-inheritance3-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+Excluded tests: 

@@ -1,0 +1,9 @@
+RUN EmbeddedInheritance.testPersistBase	
+RUN EmbeddedInheritance.testPersistSubclass	
+RUN EmbeddedInheritance.testQueryBase	
+RUN EmbeddedInheritance.testQuerySubclass	
+Description: null
+Time: 005
+app-embeddedInheritance-junit.txt:
+    OK Tests run: 004, Time: 005 seconds.
+Excluded tests: 

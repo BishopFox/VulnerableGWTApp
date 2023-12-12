@@ -1,0 +1,63 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+JDO TCK Execution Maven Mojo
+
+
+From: 'an unknown organization'
+  - org.apiguardian:apiguardian-api (https://github.com/apiguardian-team/apiguardian) org.apiguardian:apiguardian-api:jar:1.1.2
+    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Hamcrest Core (https://github.com/hamcrest/JavaHamcrest/hamcrest-core) org.hamcrest:hamcrest-core:jar:1.3
+    License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+  - JUnit Platform Commons (https://junit.org/junit5/) org.junit.platform:junit-platform-commons:jar:1.8.2
+    License: Eclipse Public License v2.0  (https://www.eclipse.org/legal/epl-v20.html)
+  - JUnit Platform Engine API (https://junit.org/junit5/) org.junit.platform:junit-platform-engine:jar:1.8.2
+    License: Eclipse Public License v2.0  (https://www.eclipse.org/legal/epl-v20.html)
+  - JUnit Vintage Engine (https://junit.org/junit5/) org.junit.vintage:junit-vintage-engine:jar:5.8.2
+    License: Eclipse Public License v2.0  (https://www.eclipse.org/legal/epl-v20.html)
+  - org.opentest4j:opentest4j (https://github.com/ota4j-team/opentest4j) org.opentest4j:opentest4j:jar:1.2.0
+    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Apache Software Foundation' (http://db.apache.org/)
+  - Apache Derby Database Engine and Embedded JDBC Driver (http://db.apache.org/derby/) org.apache.derby:derby:jar:10.14.2.0
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Derby Tools (http://db.apache.org/derby/) org.apache.derby:derbytools:jar:10.14.2.0
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+  - Generated OMG APIs (https://projects.eclipse.org/proposals/eclipse-orb/glassfish-corba-omgapi) org.glassfish.corba:glassfish-corba-omgapi:jar:4.2.4
+    License: EDL 1.0  (https://www.eclipse.org/org/documents/edl-v10.php)
+
+From: 'Eclipse.org - EclipseLink Project' (http://www.eclipse.org/eclipselink)
+  - Javax Persistence (http://www.eclipse.org/eclipselink) org.eclipse.persistence:javax.persistence:jar:2.2.1
+    License: Eclipse Public License v. 2.0  (http://www.eclipse.org/legal/epl-v20.html)    License: Eclipse Distribution License v. 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+From: 'GlassFish Community' (https://glassfish.java.net)
+  - javax.transaction API (http://jta-spec.java.net) javax.transaction:javax.transaction-api:jar:1.3
+    License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.transaction/blob/master/LICENSE)
+
+From: 'JUnit' (http://www.junit.org)
+  - JUnit (http://junit.org) junit:junit:jar:4.13.2
+    License: Eclipse Public License 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+
+From: 'Spring IO' (https://spring.io/projects/spring-framework)
+  - Spring Beans (https://github.com/spring-projects/spring-framework) org.springframework:spring-beans:jar:5.3.19
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Core (https://github.com/spring-projects/spring-framework) org.springframework:spring-core:jar:5.3.19
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework) org.springframework:spring-jcl:jar:5.3.19
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - JDO API (http://db.apache.org/jdo/jdo-api) javax.jdo:jdo-api:jar:3.2.1
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

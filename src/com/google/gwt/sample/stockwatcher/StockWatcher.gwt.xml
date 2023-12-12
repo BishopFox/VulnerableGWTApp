@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  When updating your version of GWT, you should also update this DTD reference,
+  so that your app can take advantage of the latest GWT module capabilities.
+-->
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.10.0//EN"
+  "http://gwtproject.org/doctype/2.10.0/gwt-module.dtd">
+<module rename-to='stockwatcher'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <!-- Other module inherits                                      -->
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='com.google.gwt.sample.stockwatcher.client.StockWatcher'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'/>
+  <source path='shared'/>
+  <source path='lib'/>
+  <source path='javax.persistence'/>
+
+  <!-- allow Super Dev Mode -->
+  <add-linker name="xsiframe"/>
+  
+  <!--
+      Contains a list of fully-qualified class names indicating classes that
+      should be treated as being enhanced on the server with additional fields.
+      These classes will be treated specially by RPC.
+  -->
+  <!-- <define-configuration-property name="rpc.enhancedClasses" is-multi-valued="true"/> -->
+  <extend-configuration-property name='rpc.enhancedClasses' value='com.google.gwt.sample.stockwatcher.client.CustomClass1'/>
+  <extend-configuration-property name='rpc.enhancedClasses' value='com.google.gwt.sample.stockwatcher.client.CustomClass2'/>
+
+</module>

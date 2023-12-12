@@ -1,0 +1,2 @@
+17:44:20,582 (main) INFO  [org.apache.jdo.tck] - Michael org.apache.jdo.tck.pc.query.NoExtent@510ee9ec
+17:44:20,583 (main) INFO  [org.apache.jdo.tck] - ID 1

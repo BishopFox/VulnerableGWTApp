@@ -1,0 +1,10 @@
+org/apache/jdo/exectck/SQLFileLoader.class
+org/apache/jdo/exectck/PropertyUtils.class
+org/apache/jdo/exectck/Utilities$1.class
+org/apache/jdo/exectck/Utilities.class
+org/apache/jdo/exectck/RunTCK.class
+org/apache/jdo/exectck/Utilities$InvocationResult.class
+org/apache/jdo/exectck/Help.class
+org/apache/jdo/exectck/InstallSchema.class
+org/apache/jdo/exectck/AbstractTCKMojo.class
+org/apache/jdo/exectck/Enhance.class

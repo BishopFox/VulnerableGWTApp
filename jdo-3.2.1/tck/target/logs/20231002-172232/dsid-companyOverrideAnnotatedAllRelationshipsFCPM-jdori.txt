@@ -1,0 +1,25 @@
+17:35:51,298 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as datastoreidentity11 but for this datastore this has been changed to DATASTOREIDENTITY11. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:35:52,317 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=DATASTORE instead of UNSPECIFIED
+17:35:52,318 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 
+17:35:52,384 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=DATASTORE instead of UNSPECIFIED
+17:35:52,384 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 
+17:35:52,405 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=table with value=persons instead of 
+17:35:52,446 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=DATASTORE instead of UNSPECIFIED
+17:35:52,446 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 
+17:35:52,520 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=DATASTORE instead of UNSPECIFIED
+17:35:52,521 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 
+17:35:52,657 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=table with value=persons instead of 
+17:35:52,735 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=table with value=insuranceplans instead of 
+17:35:52,875 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=table with value=persons instead of 
+17:35:54,163 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.DentalInsurance is defined to use the same table as org.apache.jdo.tck.pc.company.Insurance yet this root class has not been defined with a discriminator!!!
+17:35:54,181 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.Employee is defined to use the same table as org.apache.jdo.tck.pc.company.Person yet this root class has not been defined with a discriminator!!!
+17:35:54,187 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.FullTimeEmployee is defined to use the same table as org.apache.jdo.tck.pc.company.Person yet this root class has not been defined with a discriminator!!!
+17:35:54,198 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.MedicalInsurance is defined to use the same table as org.apache.jdo.tck.pc.company.Insurance yet this root class has not been defined with a discriminator!!!
+17:35:54,204 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.PartTimeEmployee is defined to use the same table as org.apache.jdo.tck.pc.company.Person yet this root class has not been defined with a discriminator!!!
+17:35:54,272 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.PIDentalInsurance is defined to use the same table as org.apache.jdo.tck.pc.company.PIInsurance yet this root class has not been defined with a discriminator!!!
+17:35:54,308 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.PIEmployee is defined to use the same table as org.apache.jdo.tck.pc.company.PIPerson yet this root class has not been defined with a discriminator!!!
+17:35:54,318 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.PIFullTimeEmployee is defined to use the same table as org.apache.jdo.tck.pc.company.PIPerson yet this root class has not been defined with a discriminator!!!
+17:35:54,324 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.PIMedicalInsurance is defined to use the same table as org.apache.jdo.tck.pc.company.PIInsurance yet this root class has not been defined with a discriminator!!!
+17:35:54,328 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.company.PIPartTimeEmployee is defined to use the same table as org.apache.jdo.tck.pc.company.PIPerson yet this root class has not been defined with a discriminator!!!
+17:35:56,216 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=DATASTORE instead of UNSPECIFIED
+17:35:56,217 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 

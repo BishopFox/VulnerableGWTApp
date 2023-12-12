@@ -1,0 +1,7 @@
+17:22:56,537 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as datastoreidentity0 but for this datastore this has been changed to DATASTOREIDENTITY0. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:22:57,841 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as datastoreidentity0 but for this datastore this has been changed to DATASTOREIDENTITY0. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:23:19,060 (main) WARN  [DataNucleus.Persistence] - Attempt to set property "com.mystery.property" on PM/EM yet this is not supported. Ignored
+17:23:19,277 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.newInstance.AAddressImpl is defined to use the same table as org.apache.jdo.tck.pc.newInstance.AAddress yet this root class has not been defined with a discriminator!!!
+17:23:19,288 (main) WARN  [DataNucleus.MetaData] - Class org.apache.jdo.tck.pc.newInstance.AAddressImpl is defined to use the same table as org.apache.jdo.tck.pc.newInstance.AAddress yet this root class has not been defined with a discriminator!!!
+17:23:22,810 (main) WARN  [DataNucleus.General] - ExecutionContext closed with active transaction, so rolling back the active transaction
+17:23:24,086 (main) WARN  [DataNucleus.Persistence] - Exception thrown by StateManager.isLoaded for field=1 of StateManager[pc=org.apache.jdo.tck.pc.mylib.PCPoint@6d7e2795, lifecycle=P_CLEAN] : No such database row

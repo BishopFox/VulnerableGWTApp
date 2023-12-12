@@ -1,0 +1,6 @@
+RUN MakePersistent.testMakePersistent	
+Description: null
+Time: 004
+app-schemaAttributeClass-junit.txt:
+    OK Tests run: 001, Time: 004 seconds.
+Excluded tests: 

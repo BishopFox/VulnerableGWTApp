@@ -1,0 +1,21 @@
+RUN AccessOtherInstancesInPrestore.test	
+RUN AccessingFieldsInPredelete.test	
+RUN CallingJdoPostload.test	
+RUN CallingJdoPreclear.test	
+RUN CallingJdoPredelete.test	
+RUN CallingJdoPrestore.test	
+RUN InstanceLifecycleListenerAttach.testAttach	
+RUN InstanceLifecycleListenerClear.testClear	
+RUN InstanceLifecycleListenerCreate.testCreate	
+RUN InstanceLifecycleListenerDelete.testDelete	
+RUN InstanceLifecycleListenerDetach.testDetach	
+RUN InstanceLifecycleListenerDirty.testDirty	
+RUN InstanceLifecycleListenerLoad.testLoad	
+RUN InstanceLifecycleListenerStore.testStore	
+RUN ModificationOfNontransactionalNonpersistentFields.test	
+RUN NoAccessToFieldsAfterPredelete.test	
+Description: null
+Time: 004
+app-instancecallbacks-junit.txt:
+    OK Tests run: 016, Time: 004 seconds.
+Excluded tests: 

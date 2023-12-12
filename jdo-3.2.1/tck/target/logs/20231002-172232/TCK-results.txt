@@ -1,0 +1,241 @@
+dsid-runonce-junit.txt:
+    OK Tests run: 002, Time: 003 seconds.
+dsid-instancecallbacks-junit.txt:
+    OK Tests run: 016, Time: 005 seconds.
+dsid-jdohelper-junit.txt:
+    OK Tests run: 045, Time: 004 seconds.
+dsid-pm-junit.txt:
+    OK Tests run: 169, Time: 032 seconds.
+dsid-pmf-junit.txt:
+    ** Tests run: 068, Time: 030 seconds. Failures: 0, Errors: 4
+dsid-detach-junit.txt:
+    OK Tests run: 018, Time: 007 seconds.
+dsid-embeddedInheritance-junit.txt:
+    OK Tests run: 004, Time: 009 seconds.
+dsid-enhancement-junit.txt:
+    OK Tests run: 031, Time: 003 seconds.
+dsid-extents-junit.txt:
+    OK Tests run: 015, Time: 017 seconds.
+dsid-fetchplan-junit.txt:
+    OK Tests run: 021, Time: 006 seconds.
+dsid-fetchgroup-junit.txt:
+    OK Tests run: 035, Time: 004 seconds.
+dsid-converter-junit.txt:
+    OK Tests run: 030, Time: 015 seconds.
+dsid-lifecycle-junit.txt:
+    OK Tests run: 017, Time: 011 seconds.
+dsid-models-junit.txt:
+    OK Tests run: 050, Time: 103 seconds.
+dsid-models1-junit.txt:
+    OK Tests run: 001, Time: 020 seconds.
+dsid-query-junit.txt:
+    OK Tests run: 298, Time: 078 seconds.
+dsid-jdoql-junit.txt:
+    OK Tests run: 259, Time: 123 seconds.
+dsid-jdoql1-junit.txt:
+    OK Tests run: 001, Time: 029 seconds.
+dsid-transactions-junit.txt:
+    OK Tests run: 030, Time: 006 seconds.
+dsid-companyNoRelationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyEmbedded-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-company1-1Relationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-company1-MRelationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyM-MRelationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAllRelationships-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-companyMapWithoutJoin-junit.txt:
+    OK Tests run: 001, Time: 005 seconds.
+dsid-companyListWithoutJoin-junit.txt:
+    OK Tests run: 001, Time: 005 seconds.
+dsid-companyPMClass-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyPMInterface-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-companyAnnotated1-1RelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotated1-MRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedAllRelationshipsFCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedAllRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedAllRelationshipsPCConcrete-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-companyAnnotatedAllRelationshipsJPAConcrete-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-companyAnnotatedAllRelationshipsJPAPM-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-companyAnnotatedAllRelationshipsPCPM-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-companyAnnotatedAllRelationshipsPIPM-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-companyAnnotatedEmbeddedFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedM-MRelationshipsFCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedM-MRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedNoRelationshipsFCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedNoRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedNoRelationshipsPCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedEmbeddedJPAConcrete-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-companyAnnotatedEmbeddedJPAPM-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-companyAnnotatedNoRelationshipsPCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyAnnotatedNoRelationshipsPIPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-companyOverrideAnnotatedAllRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-inheritance1-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+dsid-inheritance2-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-inheritance3-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-inheritance4-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+dsid-relationshipAllRelationships-junit.txt:
+    OK Tests run: 034, Time: 016 seconds.
+dsid-relationshipNoRelationships-junit.txt:
+    OK Tests run: 015, Time: 015 seconds.
+dsid-schemaAttributeClass-junit.txt:
+    OK Tests run: 001, Time: 004 seconds.
+dsid-schemaAttributeOrm-junit.txt:
+    OK Tests run: 001, Time: 003 seconds.
+dsid-schemaAttributePackage-junit.txt:
+    OK Tests run: 001, Time: 003 seconds.
+dsid-compoundIdentity-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+dsid-throwOnUnknownStandardProperties-junit.txt:
+    OK Tests run: 002, Time: 001 seconds.
+app-instancecallbacks-junit.txt:
+    OK Tests run: 016, Time: 004 seconds.
+app-jdohelper-junit.txt:
+    OK Tests run: 045, Time: 004 seconds.
+app-pm-junit.txt:
+    OK Tests run: 169, Time: 031 seconds.
+app-pmf-junit.txt:
+    ** Tests run: 068, Time: 035 seconds. Failures: 0, Errors: 4
+app-detach-junit.txt:
+    OK Tests run: 018, Time: 006 seconds.
+app-embeddedInheritance-junit.txt:
+    OK Tests run: 004, Time: 005 seconds.
+app-enhancement-junit.txt:
+    OK Tests run: 031, Time: 003 seconds.
+app-extents-junit.txt:
+    OK Tests run: 015, Time: 009 seconds.
+app-fetchplan-junit.txt:
+    OK Tests run: 021, Time: 005 seconds.
+app-fetchgroup-junit.txt:
+    OK Tests run: 035, Time: 004 seconds.
+app-converter-junit.txt:
+    OK Tests run: 030, Time: 005 seconds.
+app-lifecycle-junit.txt:
+    OK Tests run: 017, Time: 008 seconds.
+app-models-junit.txt:
+    OK Tests run: 050, Time: 075 seconds.
+app-models1-junit.txt:
+    OK Tests run: 001, Time: 017 seconds.
+app-query-junit.txt:
+    OK Tests run: 298, Time: 067 seconds.
+app-jdoql-junit.txt:
+    OK Tests run: 259, Time: 099 seconds.
+app-jdoql1-junit.txt:
+    OK Tests run: 001, Time: 022 seconds.
+app-transactions-junit.txt:
+    OK Tests run: 030, Time: 005 seconds.
+app-companyNoRelationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyEmbedded-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-company1-1Relationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-company1-MRelationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyM-MRelationships-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAllRelationships-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-companyMapWithoutJoin-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyListWithoutJoin-junit.txt:
+    OK Tests run: 001, Time: 005 seconds.
+app-companyPMClass-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyPMInterface-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotated1-1RelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotated1-MRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedAllRelationshipsFCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedAllRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedAllRelationshipsPCConcrete-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-companyAnnotatedAllRelationshipsJPAConcrete-junit.txt:
+    OK Tests run: 001, Time: 008 seconds.
+app-companyAnnotatedAllRelationshipsJPAPM-junit.txt:
+    OK Tests run: 001, Time: 008 seconds.
+app-companyAnnotatedAllRelationshipsPCPM-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-companyAnnotatedAllRelationshipsPIPM-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-companyAnnotatedEmbeddedFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedM-MRelationshipsFCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedM-MRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedNoRelationshipsFCConcrete-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedNoRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedNoRelationshipsPCConcrete-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-companyAnnotatedEmbeddedJPAConcrete-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-companyAnnotatedEmbeddedJPAPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedNoRelationshipsPCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyAnnotatedNoRelationshipsPIPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-companyOverrideAnnotatedAllRelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-inheritance1-junit.txt:
+    OK Tests run: 001, Time: 007 seconds.
+app-inheritance2-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+app-inheritance3-junit.txt:
+    OK Tests run: 001, Time: 002 seconds.
+app-inheritance4-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+app-relationshipAllRelationships-junit.txt:
+    OK Tests run: 034, Time: 017 seconds.
+app-relationshipNoRelationships-junit.txt:
+    OK Tests run: 015, Time: 015 seconds.
+app-schemaAttributeClass-junit.txt:
+    OK Tests run: 001, Time: 004 seconds.
+app-schemaAttributeOrm-junit.txt:
+    OK Tests run: 001, Time: 003 seconds.
+app-schemaAttributePackage-junit.txt:
+    OK Tests run: 001, Time: 003 seconds.
+app-compoundIdentity-junit.txt:
+    OK Tests run: 001, Time: 004 seconds.
+app-throwOnUnknownStandardProperties-junit.txt:
+    OK Tests run: 002, Time: 000 seconds.
+-------
+Total tests run: 2396. Failures: 0, Errors: 8.
+2 of 119 configurations failed.

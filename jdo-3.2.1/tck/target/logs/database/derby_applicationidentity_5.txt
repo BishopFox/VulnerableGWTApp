@@ -1,0 +1,5 @@
+url=jdbc:derby:jdotckdb;create=true user=tckuser password=tckuser
+loading: CREATE SCHEMA applicationidentity_orm success
+loading:  SET SCHEMA applicationidentity_orm success
+loading:  DROP TABLE PCPoint failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PCPOINT' because it does not exist.
+loading:  CREATE TABLE PCPoint ( ID BIGINT NOT NULL, X INTEGER NOT NULL, Y INTEGER, CONSTRAINT PCPNT_CONST PRIMARY KEY (ID) ) success

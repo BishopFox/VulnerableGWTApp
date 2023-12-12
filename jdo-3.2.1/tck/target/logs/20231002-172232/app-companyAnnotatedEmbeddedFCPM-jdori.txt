@@ -1,0 +1,5 @@
+17:47:41,101 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as applicationidentity0 but for this datastore this has been changed to APPLICATIONIDENTITY0. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:47:42,212 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=APPLICATION instead of UNSPECIFIED
+17:47:42,212 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 
+17:47:42,246 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=identityType with value=APPLICATION instead of UNSPECIFIED
+17:47:42,247 (main) WARN  [DataNucleus.MetaData] - Merging duplicated PersistenceCapable annotation : using key=detachable with value=true instead of 

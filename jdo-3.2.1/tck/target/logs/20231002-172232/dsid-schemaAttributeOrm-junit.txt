@@ -1,0 +1,6 @@
+RUN MakePersistent.testMakePersistent	
+Description: null
+Time: 003
+dsid-schemaAttributeOrm-junit.txt:
+    OK Tests run: 001, Time: 003 seconds.
+Excluded tests: 

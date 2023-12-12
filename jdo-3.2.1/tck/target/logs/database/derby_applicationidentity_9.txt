@@ -1,0 +1,17 @@
+url=jdbc:derby:jdotckdb;create=true user=tckuser password=tckuser
+loading: CREATE SCHEMA applicationidentity9 success
+loading:  SET SCHEMA applicationidentity9 success
+loading:  ALTER TABLE departments DROP CONSTRAINT EMP_MO_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'DEPARTMENTS' because it does not exist.
+loading:  ALTER TABLE departments DROP CONSTRAINT DEPTS_COMP_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'DEPARTMENTS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_DEPT_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_FUNDDEPT_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_MANAGER_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_MENTOR_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_HRADVISOR_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  DROP TABLE persons failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  DROP TABLE departments failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'DEPARTMENTS' because it does not exist.
+loading:  DROP TABLE companies failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'COMPANIES' because it does not exist.
+loading:  CREATE TABLE companies ( ID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, FOUNDEDDATE DATE NOT NULL, CONSTRAINT COMPS_PK PRIMARY KEY (ID) ) success
+loading:  CREATE TABLE departments ( ID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, EMP_OF_THE_MONTH INTEGER, COMPANYID INTEGER, DISCRIMINATOR VARCHAR(255), CONSTRAINT DEPTS_COMP_FK FOREIGN KEY (COMPANYID) REFERENCES companies, CONSTRAINT DEPTS_PK PRIMARY KEY (ID) ) success
+loading:  CREATE TABLE persons ( PERSONID INTEGER NOT NULL, FIRSTNAME VARCHAR(32) NOT NULL, LASTNAME VARCHAR(32) NOT NULL, MIDDLENAME VARCHAR(32), BIRTHDATE DATE Not NULL, DISCRIMINATOR varchar(64) NOT NULL, ROLE VARCHAR(32), HIREDATE DATE, WEEKLYHOURS REAL, DEPARTMENT INTEGER, FUNDINGDEPT INTEGER, MANAGER INTEGER, MENTOR INTEGER, HRADVISOR INTEGER, SALARY REAL, WAGE REAL, CONSTRAINT PERS_DEPT_FK FOREIGN KEY (DEPARTMENT) REFERENCES departments, CONSTRAINT PERS_FUNDDEPT_FK FOREIGN KEY (FUNDINGDEPT) REFERENCES departments, CONSTRAINT PERS_MANAGER_FK FOREIGN KEY (MANAGER) REFERENCES persons, CONSTRAINT PERS_MENTOR_FK FOREIGN KEY (MENTOR) REFERENCES persons, CONSTRAINT PERS_HRADVISOR_FK FOREIGN KEY (HRADVISOR) REFERENCES persons, CONSTRAINT PERS_PK PRIMARY KEY (PERSONID) ) success
+loading:  ALTER TABLE departments ADD CONSTRAINT EMP_MO_FK FOREIGN KEY (EMP_OF_THE_MONTH) REFERENCES persons(PERSONID) ON DELETE SET NULL success

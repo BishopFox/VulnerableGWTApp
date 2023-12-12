@@ -1,0 +1,7 @@
+RUN SignatureTest.testSignatures	
+RUN ExceptionConstructor.testConstructors	
+Description: null
+Time: 003
+dsid-runonce-junit.txt:
+    OK Tests run: 002, Time: 003 seconds.
+Excluded tests: 

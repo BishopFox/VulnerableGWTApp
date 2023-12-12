@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+JDO API
+
+
+From: 'Eclipse Foundation' (https://www.eclipse.org)
+  - Generated OMG APIs (https://projects.eclipse.org/proposals/eclipse-orb/glassfish-corba-omgapi) org.glassfish.corba:glassfish-corba-omgapi:jar:4.2.4
+    License: EDL 1.0  (https://www.eclipse.org/org/documents/edl-v10.php)
+
+From: 'GlassFish Community' (https://glassfish.java.net)
+  - javax.transaction API (http://jta-spec.java.net) javax.transaction:javax.transaction-api:jar:1.3
+    License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.transaction/blob/master/LICENSE)
+
+
+
+

@@ -1,0 +1,6 @@
+RUN CompletenessTest.test	
+Description: null
+Time: 006
+app-companyAnnotated1-1RelationshipsFCPM-junit.txt:
+    OK Tests run: 001, Time: 006 seconds.
+Excluded tests: 

@@ -1,0 +1,26 @@
+RUN FetchPlanInterface.testDetachmentRoots	
+RUN FetchPlanInterface.testFetchSize	
+RUN FetchPlanInterface.testMaxFetchDepth	
+RUN FetchPlanInterface.testDetachmentOptions	
+RUN FetchPlanInterface.testGroups	
+RUN FetchPlanMakeTransient.testMakeTransientAllCollection	
+RUN FetchPlanMakeTransient.testMakeTransient	
+RUN FetchPlanMakeTransient.testMakeTransientAllArray	
+RUN FetchPlanQuery.testQuery	
+RUN FetchPlanRefresh.testRefreshAllArray	
+RUN FetchPlanRefresh.testRefreshAllCollection	
+RUN FetchPlanRefresh.testRefresh	
+RUN FetchPlanRetrieve.testRetrieveAllArray	
+RUN FetchPlanRetrieve.testRetrieveAllCollection	
+RUN FetchPlanRetrieve.testRetrieve	
+RUN FetchPlanIsCopy.testSetGroupsArray	
+RUN FetchPlanIsCopy.testRemoveGroup	
+RUN FetchPlanIsCopy.testAddGroup	
+RUN FetchPlanIsCopy.testSetGroupsCollection	
+RUN FetchPlanIsCopy.testClearGroups	
+RUN FetchPlanIsCopy.testSetGroup	
+Description: null
+Time: 005
+app-fetchplan-junit.txt:
+    OK Tests run: 021, Time: 005 seconds.
+Excluded tests: 

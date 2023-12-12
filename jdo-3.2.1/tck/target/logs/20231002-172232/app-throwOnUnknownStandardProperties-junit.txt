@@ -1,0 +1,7 @@
+RUN ThrowOnUnknownStandardProperties.testUnknownStandardProperty	
+RUN ThrowOnUnknownStandardProperties.testUnknownStandardProperties	
+Description: null
+Time: 000
+app-throwOnUnknownStandardProperties-junit.txt:
+    OK Tests run: 002, Time: 000 seconds.
+Excluded tests: 

@@ -1,0 +1,23 @@
+RUN IsDetached.testDetachableIsDetachedTrue	
+RUN IsDetached.testNullTransientAndUndetachableIsDetachedFalse	
+RUN DetachAllOnCommit.testDetachAllOnCommit	
+RUN DetachAttach.testAttachClean	
+RUN DetachAttachDirty.testAttachDirty	
+RUN DetachCopy.testDetachCopy	
+RUN DetachCopy.testDetachCopyAllCollection	
+RUN DetachCopy.testDetachCopyAllArray	
+RUN DetachSerialize.testDetachSerialize	
+RUN SetDetachAllOnCommit.test	
+RUN DetachUndetachable.testDetachUndetachable	
+RUN DetachAccessUnloadedField.testDetachCopyFieldAccessOk	
+RUN DetachAccessUnloadedField.testDetachCopyAccessUnloadedField	
+RUN DetachAccessUnloadedField.testDetachCopyAccessLoadedField	
+RUN DetachAccessUnloadedField.testDetachCopyAccessFieldNotInFetchPlan	
+RUN CopyOnAttachFalse.testAttachClean	
+RUN CopyOnAttachFalse.testAttachDirty	
+RUN CopyOnAttachFalse.testNegativeAttachClean	
+Description: null
+Time: 006
+app-detach-junit.txt:
+    OK Tests run: 018, Time: 006 seconds.
+Excluded tests: 

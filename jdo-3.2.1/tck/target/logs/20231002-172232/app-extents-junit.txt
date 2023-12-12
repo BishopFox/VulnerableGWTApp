@@ -1,0 +1,20 @@
+RUN AutoCloseable.testTryWithResource	
+RUN AutoCloseable.testTryWithResourceThrowingException	
+RUN CloseAll.test	
+RUN CloseOfExtentIteratorIsIteratorSpecific.test	
+RUN GetCandidateClass.test	
+RUN GetPersistenceManager.test	
+RUN HasSubclassesFalse.test	
+RUN HasSubclassesTrue.test	
+RUN InstancesDeletedPriorToIterationNotReturned.test	
+RUN InstancesPersistedPriorToIterationReturned.test	
+RUN IteratorHasNextFalseAfterExtentClose.test	
+RUN IteratorMutatingMethods.test	
+RUN IteratorNextAfterExtentClose.test	
+RUN IteratorNextAfterExtentCloseAll.test	
+RUN Iterators.test	
+Description: null
+Time: 009
+app-extents-junit.txt:
+    OK Tests run: 015, Time: 009 seconds.
+Excluded tests: 

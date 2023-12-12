@@ -1,0 +1,6 @@
+RUN CompletenessTestOrder.test	
+Description: null
+Time: 004
+app-compoundIdentity-junit.txt:
+    OK Tests run: 001, Time: 004 seconds.
+Excluded tests: 

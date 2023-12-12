@@ -1,0 +1,1658 @@
+----------------------------------------------------------------
+Mon Oct 02 17:21:11 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2e9-0032-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader ClassRealm[plugin>org.apache.jdo:jdo-exectck:3.2.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@55054057] 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:22:02 PDT 2023: Shutting down Derby engine
+----------------------------------------------------------------
+Mon Oct 02 17:22:02 PDT 2023:
+Shutting down instance a816c00e-018a-f2e9-0032-ffffec088117 on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader ClassRealm[plugin>org.apache.jdo:jdo-exectck:3.2.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@55054057] 
+----------------------------------------------------------------
+----------------------------------------------------------------
+Mon Oct 02 17:22:36 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ea-4c4e-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:22:41 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ea-630f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:22:48 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ea-7db7-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:22:55 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ea-98b0-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:23:30 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2eb-1f30-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:24:02 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2eb-9db0-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:24:14 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2eb-cb6f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:24:24 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2eb-f2fc-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:24:30 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ec-0cff-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:24:51 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ec-5cb0-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:25:00 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ec-7e5e-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:25:13 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ec-af55-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:25:26 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ec-e6dc-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:25:40 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ed-1bad-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:27:25 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ee-b7e9-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:27:52 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ef-202b-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:29:16 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f0-676f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:31:21 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f2-4f41-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:31:52 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f2-c90a-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:02 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f2-f0d5-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:10 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-10c8-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:19 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-3277-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:27 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-5433-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:36 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-76a6-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:45 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-97c7-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:32:54 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-badd-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:02 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-da2e-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:09 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f3-f5a5-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:17 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-15ce-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:26 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-38e4-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:34 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-581c-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:42 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-7817-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:51 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-9919-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:33:59 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-ba79-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:08 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-de65-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:13 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-ef9f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:17 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f4-ffe8-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:26 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-2281-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:35 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-4501-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:43 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-660c-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:34:52 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-87aa-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:00 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-a7b5-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:09 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-ca0d-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:17 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f5-ea83-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:26 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-0c2c-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:30 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-1cae-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:34 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-2c65-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:42 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-4bf1-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:35:50 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-6b0d-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:36:00 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-9272-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:36:09 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-b587-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:36:14 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-c78b-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:36:18 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-d8c6-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:36:26 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f6-f947-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:36:44 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-400f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:02 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-84c4-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:08 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-9ddf-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:13 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-b153-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:19 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-c538-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:25 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-e05a-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:32 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f7-f9fa-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:37:38 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f8-1326-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:38:11 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f8-9390-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:38:49 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-285c-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:38:59 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-4d08-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:05 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-661e-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:10 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-79e8-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:21 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-a4d0-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:29 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-c2aa-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:35 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-d941-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:42 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2f9-f75d-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:39:53 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fa-2062-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:41:09 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fb-49fb-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:41:32 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fb-a1eb-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:42:43 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fc-b80c-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:44:23 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fe-4106-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:44:48 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fe-a221-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:44:55 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fe-be70-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:03 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fe-dd5d-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:12 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2fe-fd8a-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:20 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-1ce7-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:28 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-3bd2-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:36 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-5ac8-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:45 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-7e3f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:52 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-9ce0-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:45:59 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-b7f3-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:46:08 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-d8ca-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:46:16 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f2ff-faca-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:46:25 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-1d78-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:46:34 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-400c-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:46:43 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-607e-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:46:51 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-8300-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:01 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-a86f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:11 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-d038-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:21 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f300-f6cc-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:31 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-1c82-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:40 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-3f1b-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:48 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-5ed6-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:47:56 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-7e98-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:04 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-9f47-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:13 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-c104-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:21 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f301-df7f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:30 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-0364-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:39 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-2690-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:48 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-4990-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:48:56 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-699e-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:05 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-8b23-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:13 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-ad67-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:23 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-d2e3-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:28 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-e539-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:32 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f302-f5b3-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:40 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f303-1788-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:49:59 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f303-61f8-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:50:17 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f303-a7a2-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:50:24 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f303-c08a-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:50:29 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f303-d5de-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Oct 02 17:50:34 PDT 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018a-f303-ea4f-ffffec088117 
+on database directory /home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby/jdotckdb with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/user/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Debian
+java.runtime.version=11.0.17+8-post-Debian-2
+user.dir=/home/user/GWT/StockWatcher/jdo-3.2.1
+os.name=Linux
+os.arch=amd64
+os.version=6.1.0-kali7-amd64
+derby.system.home=/home/user/GWT/StockWatcher/jdo-3.2.1/tck/target/database/derby
+derby.stream.error.file=../../logs/database/derby.txt
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,51 @@
+17:41:33,028 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as applicationidentity0 but for this datastore this has been changed to APPLICATIONIDENTITY0. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:42:07,264 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:07,301 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:07,470 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:07,479 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:08,443 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,444 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,448 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,717 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:08,727 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,729 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,730 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:08,731 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,882 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:08,893 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,895 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:08,895 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:08,897 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:09,768 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:09,778 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:09,779 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:09,780 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:09,781 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:10,873 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:10,885 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:10,893 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:10,895 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:10,896 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:11,633 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:11,640 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:11,642 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:11,643 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:11,644 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:11,786 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:11,796 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:11,797 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:11,799 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:11,800 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,267 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,268 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,278 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,617 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,627 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,633 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,793 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,794 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:12,795 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:14,541 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:14,544 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:42:24,285 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:42:24,303 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=APPLICATIONIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee

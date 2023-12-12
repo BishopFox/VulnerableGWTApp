@@ -1,0 +1,35 @@
+url=jdbc:derby:jdotckdb;create=true user=tckuser password=tckuser
+loading: CREATE SCHEMA applicationidentity3 success
+loading:  SET SCHEMA applicationidentity3 success
+loading:  ALTER TABLE departments DROP CONSTRAINT EMP_MO_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'DEPARTMENTS' because it does not exist.
+loading:  ALTER TABLE project_reviewer DROP CONSTRAINT PR_PROJ_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PROJECT_REVIEWER' because it does not exist.
+loading:  ALTER TABLE project_reviewer DROP CONSTRAINT PR_REV_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PROJECT_REVIEWER' because it does not exist.
+loading:  DROP TABLE dentalinsurance failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'DENTALINSURANCE' because it does not exist.
+loading:  DROP TABLE medicalinsurance failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'MEDICALINSURANCE' because it does not exist.
+loading:  DROP TABLE project_reviewer failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PROJECT_REVIEWER' because it does not exist.
+loading:  DROP TABLE project_member failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PROJECT_MEMBER' because it does not exist.
+loading:  DROP TABLE employee_phoneno_type failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'EMPLOYEE_PHONENO_TYPE' because it does not exist.
+loading:  DROP TABLE fulltimeemployees failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'FULLTIMEEMPLOYEES' because it does not exist.
+loading:  DROP TABLE parttimeemployees failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PARTTIMEEMPLOYEES' because it does not exist.
+loading:  DROP TABLE persons failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  DROP TABLE projects failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PROJECTS' because it does not exist.
+loading:  DROP TABLE departments failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'DEPARTMENTS' because it does not exist.
+loading:  DROP TABLE companies failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'COMPANIES' because it does not exist.
+loading:  DROP TABLE meetingrooms failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'MEETINGROOMS' because it does not exist.
+loading:  DROP TABLE department_rooms failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'DEPARTMENT_ROOMS' because it does not exist.
+loading:  CREATE TABLE companies ( ID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, FOUNDEDDATE DATE NOT NULL, ADDRID INTEGER, STREET VARCHAR(64), CITY VARCHAR(64), STATE CHAR(2), ZIPCODE CHAR(5), COUNTRY VARCHAR(64), CONSTRAINT COMPS_PK PRIMARY KEY (ID) ) success
+loading:  CREATE TABLE departments ( ID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, EMP_OF_THE_MONTH INTEGER, COMPANYID INTEGER REFERENCES companies, CONSTRAINT DEPTS_PK PRIMARY KEY (ID) ) success
+loading:  CREATE TABLE department_rooms ( DEPTID INTEGER NOT NULL, ROOMID INTEGER NOT NULL, ROOM_ORDER INTEGER NOT NULL ) success
+loading:  CREATE TABLE meetingrooms ( ID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, CONSTRAINT ROOMS_PK PRIMARY KEY (ID) ) success
+loading:  CREATE TABLE persons ( PERSONID INTEGER NOT NULL, FIRSTNAME VARCHAR(32) NOT NULL, LASTNAME VARCHAR(32) NOT NULL, MIDDLENAME VARCHAR(32), BIRTHDATE DATE NOT NULL, ADDRID INTEGER, STREET VARCHAR(64), CITY VARCHAR(64), STATE CHAR(2), ZIPCODE CHAR(5), COUNTRY VARCHAR(64), CONSTRAINT PERS_PK PRIMARY KEY (PERSONID) ) success
+loading:  CREATE TABLE parttimeemployees ( PERSONID INTEGER NOT NULL, HIREDATE DATE, WEEKLYHOURS DOUBLE, DEPARTMENT INTEGER REFERENCES departments, FUNDINGDEPT INTEGER REFERENCES departments, MANAGER INTEGER REFERENCES persons, MENTOR INTEGER REFERENCES persons, HRADVISOR INTEGER REFERENCES persons, WAGE DOUBLE, CONSTRAINT PTEMPS_PK PRIMARY KEY (PERSONID), CONSTRAINT PTEMPS_FK FOREIGN KEY (PERSONID) REFERENCES persons (PERSONID) ) success
+loading:  CREATE TABLE fulltimeemployees ( PERSONID INTEGER NOT NULL, HIREDATE DATE, WEEKLYHOURS DOUBLE, DEPARTMENT INTEGER REFERENCES departments, FUNDINGDEPT INTEGER REFERENCES departments, MANAGER INTEGER REFERENCES persons, MENTOR INTEGER REFERENCES persons, HRADVISOR INTEGER REFERENCES persons, SALARY DOUBLE, CONSTRAINT FTEMPS_PK PRIMARY KEY (PERSONID), CONSTRAINT FTEMPS_FK FOREIGN KEY (PERSONID) REFERENCES persons (PERSONID) ) success
+loading:  CREATE TABLE medicalinsurance ( INSID INTEGER NOT NULL, CARRIER VARCHAR(64) NOT NULL, EMPLOYEE INTEGER REFERENCES persons, PLANTYPE VARCHAR(8), CONSTRAINT MEDINS_PK PRIMARY KEY (INSID) ) success
+loading:  CREATE TABLE dentalinsurance ( INSID INTEGER NOT NULL, CARRIER VARCHAR(64) NOT NULL, EMPLOYEE INTEGER REFERENCES persons, LIFETIME_ORTHO_BENEFIT DECIMAL(22,3), CONSTRAINT DENTINS_PK PRIMARY KEY (INSID) ) success
+loading:  CREATE TABLE projects ( PROJID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, BUDGET DECIMAL(11,2) NOT NULL, CONSTRAINT PROJS_PK PRIMARY KEY (PROJID) ) success
+loading:  CREATE TABLE project_reviewer ( PROJID INTEGER NOT NULL, REVIEWER INTEGER NOT NULL ) success
+loading:  CREATE TABLE project_member ( PROJID INTEGER REFERENCES projects NOT NULL, MEMBER INTEGER REFERENCES persons NOT NULL ) success
+loading:  CREATE TABLE employee_phoneno_type ( EMPID INTEGER REFERENCES persons NOT NULL, PHONENO VARCHAR(16) NOT NULL, TYPE VARCHAR(16) NOT NULL ) success
+loading:  ALTER TABLE project_reviewer ADD CONSTRAINT PR_PROJ_FK FOREIGN KEY (PROJID) REFERENCES projects(PROJID) success
+loading:  ALTER TABLE project_reviewer ADD CONSTRAINT PR_REV_FK FOREIGN KEY (REVIEWER) REFERENCES persons(PERSONID) success
+loading:  ALTER TABLE departments ADD CONSTRAINT EMP_MO_FK FOREIGN KEY (EMP_OF_THE_MONTH) REFERENCES persons(PERSONID) ON DELETE SET NULL success

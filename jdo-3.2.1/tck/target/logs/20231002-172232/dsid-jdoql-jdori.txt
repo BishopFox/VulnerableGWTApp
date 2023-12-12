@@ -1,0 +1,56 @@
+17:29:57,938 (main) WARN  [DataNucleus.Datastore.Schema] - You have specified the default schema as datastoreidentity0 but for this datastore this has been changed to DATASTOREIDENTITY0. This is likely due to missing quote characters, or the datastore storing things in a different case
+17:30:00,002 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=DATASTOREIDENTITY0.PERSONS A0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:30:00,065 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=DATASTOREIDENTITY0.PERSONS A0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:30:02,167 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=DATASTOREIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:30:02,225 (main) WARN  [DataNucleus.Query] - >> Currently do not support adding restriction on discriminator for table=DATASTOREIDENTITY0.PERSONS B0 to class org.apache.jdo.tck.pc.company.FullTimeEmployee
+17:30:05,631 (main) WARN  [DataNucleus.Query] - Attempt to use transient object as parameter in query. Not supported, so using NULL for parameter value
+17:30:05,635 (main) WARN  [DataNucleus.Query] - Attempt to use transient object as parameter in query. Not supported, so using NULL for parameter value
+17:30:05,662 (main) WARN  [DataNucleus.Query] - Attempt to use transient object as parameter in query. Not supported, so using NULL for parameter value
+17:30:34,352 (main) WARN  [DataNucleus.Query] - Candidate class for JDOQL single-string query (select.Person) could not be resolved
+org.datanucleus.exceptions.ClassNotResolvedException: Class "select.Person" was not found in the CLASSPATH. Please check your specification and your CLASSPATH.
+	at org.datanucleus.ClassLoaderResolverImpl.classForName(ClassLoaderResolverImpl.java:219) ~[datanucleus-core-5.2.9.jar:?]
+	at org.datanucleus.util.Imports.resolveClassDeclaration(Imports.java:203) ~[datanucleus-core-5.2.9.jar:?]
+	at org.datanucleus.store.query.AbstractJDOQLQuery.<init>(AbstractJDOQLQuery.java:130) ~[datanucleus-core-5.2.9.jar:?]
+	at org.datanucleus.store.rdbms.query.JDOQLQuery.<init>(JDOQLQuery.java:159) ~[datanucleus-rdbms-5.2.9.jar:?]
+	at org.datanucleus.store.rdbms.RDBMSStoreManager.newQuery(RDBMSStoreManager.java:1192) ~[datanucleus-rdbms-5.2.9.jar:?]
+	at org.datanucleus.api.jdo.JDOPersistenceManager.newQuery(JDOPersistenceManager.java:1300) ~[datanucleus-api-jdo-5.2.8.jar:?]
+	at org.datanucleus.api.jdo.JDOPersistenceManager.newQuery(JDOPersistenceManager.java:1247) ~[datanucleus-api-jdo-5.2.8.jar:?]
+	at org.apache.jdo.tck.query.QueryTest.compile(QueryTest.java:1035) ~[classes/:?]
+	at org.apache.jdo.tck.query.QueryTest.compileSingleStringQuery(QueryTest.java:995) ~[classes/:?]
+	at org.apache.jdo.tck.query.jdoql.keywords.InvalidUseOfKeywords.testNegative(InvalidUseOfKeywords.java:99) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at junit.framework.TestCase.runTest(TestCase.java:177) ~[junit-4.13.2.jar:4.13.2]
+	at org.apache.jdo.tck.JDO_Test.runBare(JDO_Test.java:278) ~[classes/:?]
+	at junit.framework.TestResult$1.protect(TestResult.java:122) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestResult.runProtected(TestResult.java:142) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestResult.run(TestResult.java:125) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestCase.run(TestCase.java:130) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestSuite.runTest(TestSuite.java:241) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestSuite.run(TestSuite.java:236) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestSuite.runTest(TestSuite.java:241) ~[junit-4.13.2.jar:4.13.2]
+	at junit.framework.TestSuite.run(TestSuite.java:236) ~[junit-4.13.2.jar:4.13.2]
+	at junit.textui.TestRunner.doRun(TestRunner.java:116) ~[junit-4.13.2.jar:4.13.2]
+	at org.apache.jdo.tck.util.BatchTestRunner.doRun(BatchTestRunner.java:124) ~[classes/:?]
+	at org.apache.jdo.tck.util.BatchTestRunner.start(BatchTestRunner.java:169) ~[classes/:?]
+	at org.apache.jdo.tck.util.BatchTestRunner.main(BatchTestRunner.java:140) ~[classes/:?]
+17:30:42,170 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:30:42,172 (main) WARN  [DataNucleus.Datastore] - SQL Warning : Null values were eliminated from the argument of a column function.
+17:31:10,401 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:10,401 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:10,843 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:10,844 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,478 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,478 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,643 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,643 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,665 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,666 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,692 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,692 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,981 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:11,981 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:12,033 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore
+17:31:12,034 (main) WARN  [DataNucleus.Query] - In-memory evaluator doesn't currently handle subqueries completely so evaluating in datastore

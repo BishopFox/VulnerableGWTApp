@@ -1,0 +1,22 @@
+RUN HollowInstanceMaintainsPK.test	
+RUN MultiplePMsReturnInstancesRepresentingSamePC.test	
+RUN NontransactionalWriteThrows.testNontransactionalWriteThrows	
+RUN NontransactionalWriteDatastoreRollback.testDatastoreRollback	
+RUN NontransactionalWriteDatastoreCommit.testDatastoreCommit	
+RUN NontransactionalWriteDatastoreCommitConflict.testDatastoreCommitConflict	
+RUN NontransactionalWriteOptimisticRollback.testOptimisticRollback	
+RUN NontransactionalWriteOptimisticCommit.testOptimisticCommit	
+RUN NontransactionalWriteOptimisticCommitConflict.testOptimisticCommitConflict	
+RUN ObjectIdNotModifiedWhenObjectIdInstanceModified.test	
+RUN PMReturnsIdenticalInstancesForEqualObjIds.test	
+RUN PMsCanSharePCClassesButNotPCInstances.testSharedPC	
+RUN PMsCanSharePCClassesButNotPCInstances.testNonSharedPC	
+RUN StateTransitions.test	
+RUN StateTransitionsReturnedObjects.test	
+RUN TransientTransactionalStateCommit.test	
+RUN TransientTransactionalStateRollback.test	
+Description: null
+Time: 008
+app-lifecycle-junit.txt:
+    OK Tests run: 017, Time: 008 seconds.
+Excluded tests: 

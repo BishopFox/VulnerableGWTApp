@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<jdo xmlns="https://db.apache.org/jdo/xmlns/jdo"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="https://db.apache.org/jdo/xmlns/jdo
+     https://db.apache.org/jdo/xmlns/jdo_3_2.xsd">
+  <package name="org.apache.jdo.tck.pc.query">
+
+    <class name="JDOQLKeywordsAsFieldNames"
+           identity-type="application" objectid-class="javax.jdo.identity.StringIdentity">
+      <field name="select" primary-key="true"/>
+    </class>
+
+    <class name="NoExtent" requires-extent="false"
+           identity-type="application" objectid-class="javax.jdo.identity.IntIdentity">
+      <field name="id" primary-key="true"/>
+    </class>
+
+    <class name="TimeSample" identity-type="application">
+      <field name="id" primary-key="true"/>
+      <field name="time" persistence-modifier="persistent"/>
+    </class>
+
+    <class name="LocalDateSample" identity-type="application">
+      <field name="id" primary-key="true"/>
+      <field name="localDate" persistence-modifier="persistent"/>
+    </class>
+
+    <class name="LocalDateTimeSample" identity-type="application">
+      <field name="id" primary-key="true"/>
+      <field name="localDateTime" persistence-modifier="persistent"/>
+    </class>
+
+    <class name="LocalTimeSample" identity-type="application">
+      <field name="id" primary-key="true"/>
+      <field name="localTime" persistence-modifier="persistent"/>
+    </class>
+
+    <class name="OptionalSample" identity-type="application">
+      <field name="id" primary-key="true"/>
+      <field name="optionalPC" 
+                   	field-type="org.apache.jdo.tck.pc.query.OptionalSample"
+                   	persistence-modifier="persistent"/>
+      <field name="optionalDate" persistence-modifier="persistent"/>
+      <field name="optionalInteger" persistence-modifier="persistent"/>
+      <field name="optionalString" persistence-modifier="persistent"/>
+    </class>
+
+    <class name="MathSample" identity-type="application">
+      <field name="id" primary-key="true"/>
+      <field name="angle" persistence-modifier="persistent"/>
+      <field name="trigValue" persistence-modifier="persistent"/>
+      <field name="doubleValue" persistence-modifier="persistent"/>
+      <field name="floatValue" persistence-modifier="persistent"/>
+      <field name="intValue" persistence-modifier="persistent"/>
+    </class>
+  </package>
+</jdo>

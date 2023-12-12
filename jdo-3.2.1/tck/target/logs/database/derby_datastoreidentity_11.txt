@@ -1,0 +1,38 @@
+url=jdbc:derby:jdotckdb;create=true user=tckuser password=tckuser
+loading: CREATE SCHEMA datastoreidentity11 success
+loading:  SET SCHEMA datastoreidentity11 success
+loading:  ALTER TABLE comp_depts DROP CONSTRAINT EMP_MO_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'COMP_DEPTS' because it does not exist.
+loading:  ALTER TABLE comp_depts DROP CONSTRAINT DEPTS_COMP_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'COMP_DEPTS' because it does not exist.
+loading:  ALTER TABLE project_reviewer DROP CONSTRAINT PR_PROJ_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PROJECT_REVIEWER' because it does not exist.
+loading:  ALTER TABLE project_reviewer DROP CONSTRAINT PR_REV_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PROJECT_REVIEWER' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_DEPT_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_FUNDDEPT_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_MANAGER_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_MENTOR_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE persons DROP CONSTRAINT PERS_HRADVISOR_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  ALTER TABLE insuranceplans DROP CONSTRAINT INS_EMP_FK failure java.sql.SQLSyntaxErrorException: 'ALTER TABLE' cannot be performed on 'INSURANCEPLANS' because it does not exist.
+loading:  DROP TABLE insuranceplans failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'INSURANCEPLANS' because it does not exist.
+loading:  DROP TABLE project_reviewer failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PROJECT_REVIEWER' because it does not exist.
+loading:  DROP TABLE project_member failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PROJECT_MEMBER' because it does not exist.
+loading:  DROP TABLE employee_phoneno_type failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'EMPLOYEE_PHONENO_TYPE' because it does not exist.
+loading:  DROP TABLE persons failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PERSONS' because it does not exist.
+loading:  DROP TABLE projects failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'PROJECTS' because it does not exist.
+loading:  DROP TABLE comp_depts failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'COMP_DEPTS' because it does not exist.
+loading:  DROP TABLE companies failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'COMPANIES' because it does not exist.
+loading:  DROP TABLE meetingrooms failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'MEETINGROOMS' because it does not exist.
+loading:  DROP TABLE department_rooms failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'DEPARTMENT_ROOMS' because it does not exist.
+loading:  CREATE TABLE companies ( DATASTORE_IDENTITY INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY, ID INTEGER, NAME VARCHAR(32) NOT NULL, FOUNDEDDATE DATE NOT NULL, ADDRID INTEGER, STREET VARCHAR(64), CITY VARCHAR(64), STATE CHAR(2), ZIPCODE CHAR(5), COUNTRY VARCHAR(64), DISCRIMINATOR VARCHAR(255), CONSTRAINT COMPS_PK PRIMARY KEY (DATASTORE_IDENTITY) ) success
+loading:  CREATE TABLE comp_depts ( DATASTORE_IDENTITY INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY, ID INTEGER, NAME VARCHAR(32) NOT NULL, EMP_OF_THE_MONTH INTEGER, COMPANYID INTEGER, DISCRIMINATOR VARCHAR(255), CONSTRAINT DEPTS_COMP_FK FOREIGN KEY (COMPANYID) REFERENCES companies, CONSTRAINT DEPTS_PK PRIMARY KEY (DATASTORE_IDENTITY) ) success
+loading:  CREATE TABLE department_rooms ( DEPTID INTEGER NOT NULL, ROOMID INTEGER NOT NULL, ROOM_ORDER INTEGER NOT NULL ) success
+loading:  CREATE TABLE meetingrooms ( DATASTORE_IDENTITY INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY, ID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, DISCRIMINATOR VARCHAR(255), CONSTRAINT ROOMS_PK PRIMARY KEY (DATASTORE_IDENTITY) ) success
+loading:  CREATE TABLE persons ( DATASTORE_IDENTITY INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY, PERSONID INTEGER NOT NULL, FIRSTNAME VARCHAR(32) NOT NULL, LASTNAME VARCHAR(32) NOT NULL, MIDDLENAME VARCHAR(32), BIRTHDATE DATE NOT NULL, ADDRID INTEGER, STREET VARCHAR(64), CITY VARCHAR(64), STATE CHAR(2), ZIPCODE CHAR(5), COUNTRY VARCHAR(64), HIREDATE DATE, WEEKLYHOURS REAL, DEPARTMENT INTEGER, FUNDINGDEPT INTEGER, MANAGER INTEGER, MENTOR INTEGER, HRADVISOR INTEGER, SALARY REAL, WAGE REAL, DISCRIMINATOR varchar(255) NOT NULL, CONSTRAINT PERS_DEPT_FK FOREIGN KEY (DEPARTMENT) REFERENCES comp_depts, CONSTRAINT PERS_FUNDDEPT_FK FOREIGN KEY (FUNDINGDEPT) REFERENCES comp_depts, CONSTRAINT PERS_MANAGER_FK FOREIGN KEY (MANAGER) REFERENCES persons, CONSTRAINT PERS_MENTOR_FK FOREIGN KEY (MENTOR) REFERENCES persons, CONSTRAINT PERS_HRADVISOR_FK FOREIGN KEY (HRADVISOR) REFERENCES persons, CONSTRAINT PERS_UK UNIQUE (PERSONID), CONSTRAINT PERS_PK PRIMARY KEY (DATASTORE_IDENTITY) ) success
+loading:  CREATE TABLE insuranceplans ( DATASTORE_IDENTITY INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY, INSID INTEGER, CARRIER VARCHAR(64) NOT NULL, LIFETIME_ORTHO_BENEFIT DECIMAL(22,3), PLANTYPE VARCHAR(8), DISCRIMINATOR varchar(255) NOT NULL, EMPLOYEE INTEGER, CONSTRAINT INS_EMP_FK FOREIGN KEY (EMPLOYEE) REFERENCES persons, CONSTRAINT INS_PK PRIMARY KEY (DATASTORE_IDENTITY) ) success
+loading:  CREATE TABLE projects ( DATASTORE_IDENTITY INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY, PROJID INTEGER NOT NULL, NAME VARCHAR(32) NOT NULL, PROJECT_BUDGET DECIMAL(11,2) NOT NULL, CLASS VARCHAR(255), CONSTRAINT PROJS_UK UNIQUE (PROJID), CONSTRAINT PROJS_PK PRIMARY KEY (DATASTORE_IDENTITY) ) success
+loading:  CREATE TABLE project_reviewer ( PROJID INTEGER NOT NULL, REVIEWER INTEGER NOT NULL ) success
+loading:  CREATE TABLE project_member ( PROJID INTEGER NOT NULL, MEMBER INTEGER NOT NULL ) success
+loading:  CREATE TABLE employee_phoneno_type ( EMPID INTEGER REFERENCES persons NOT NULL, PHONENO VARCHAR(16) NOT NULL, TYPE VARCHAR(16) NOT NULL ) success
+loading:  ALTER TABLE project_reviewer ADD CONSTRAINT PR_PROJ_FK FOREIGN KEY (PROJID) REFERENCES projects success
+loading:  ALTER TABLE project_reviewer ADD CONSTRAINT PR_REV_FK FOREIGN KEY (REVIEWER) REFERENCES persons success
+loading:  ALTER TABLE project_member ADD CONSTRAINT PM_PROJ_FK FOREIGN KEY (PROJID) REFERENCES projects success
+loading:  ALTER TABLE project_member ADD CONSTRAINT PM_MEMB_FK FOREIGN KEY (MEMBER) REFERENCES persons success
+loading:  ALTER TABLE comp_depts ADD CONSTRAINT EMP_MO_FK FOREIGN KEY (EMP_OF_THE_MONTH) REFERENCES persons ON DELETE SET NULL success

@@ -1,0 +1,20 @@
+RUN Relationship1To1NoRelationships.testSetToExistingFromMappedSide	
+RUN Relationship1To1NoRelationships.testSetToNewFromMappedSide	
+RUN Relationship1To1NoRelationships.testSetToExistingFromMappedBySide	
+RUN Relationship1To1NoRelationships.testSetToNewFromMappedBySide	
+RUN Relationship1ToManyNoRelationships.testSetToNewFromMappedbySide	
+RUN Relationship1ToManyNoRelationships.testSetToExistingFromMappedSide	
+RUN Relationship1ToManyNoRelationships.testSetToNewFromMappedSide	
+RUN Relationship1ToManyNoRelationships.testAddExistingFromMappedbySide	
+RUN RelationshipManyToManyNoRelationships.testAddFromMappedbySide	
+RUN RelationshipManyToManyNoRelationships.testReplaceFromMappedSide	
+RUN RelationshipManyToManyNoRelationships.testAddFromMappedSide	
+RUN RelationshipManyToManyNoRelationships.testReplaceFromMappedbySide	
+RUN RelationshipNegative1ToManyTest.testDeleteOtherSide	
+RUN RelationshipNegative1ToManyTest.testAInBbutNotB2A	
+RUN RelationshipNegative1ToManyTest.testAddToMoreThanOne	
+Description: null
+Time: 015
+dsid-relationshipNoRelationships-junit.txt:
+    OK Tests run: 015, Time: 015 seconds.
+Excluded tests: 

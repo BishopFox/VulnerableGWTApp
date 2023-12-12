@@ -1,0 +1,5 @@
+url=jdbc:derby:jdotckdb;create=true user=tckuser password=tckuser
+loading: CREATE SCHEMA applicationidentity12 success
+loading:  SET SCHEMA applicationidentity12 success
+loading:  DROP TABLE KITCHEN failure java.sql.SQLSyntaxErrorException: 'DROP TABLE' cannot be performed on 'KITCHEN' because it does not exist.
+loading:  CREATE TABLE KITCHEN ( KITCHEN_ID BIGINT NOT NULL, OVEN_DISCRIM VARCHAR(128) NOT NULL, OVEN_MAKE VARCHAR(255), OVEN_MODEL VARCHAR(255), MICROWAVE CHAR(1) CHECK (MICROWAVE IN ('Y','N') OR MICROWAVE IS NULL), CAPABILITIES VARCHAR(255), CONSTRAINT KITCHEN_PK PRIMARY KEY (KITCHEN_ID) ) success
