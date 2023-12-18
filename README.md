@@ -2,7 +2,7 @@
 
 This is a version of [the StockWatcher example application described in the GWT getting-started guide](https://www.gwtproject.org/doc/latest/tutorial/gettingstarted.html) that has been modified to use the GWT "enhanced classes" feature, making it vulnerable to a Java deserialization attack. It should only be used for testing detection and exploitation tooling. Enhanced classes are commonly used in real-world GWT-based applications, but until the publication of this example, there were no easily-located open source web applications that security professionals could use to validate their tooling and procedures.
 
-[Exploiting GWT-based applications is discussed in the Bishop Fox blog post "GWT: An Eight-Year-Old Unpatched Java Deserialization Vulnerability"](https://bishopfox.com/blog).
+[Exploiting GWT-based applications is discussed in the Bishop Fox blog post "GWT: An Eight-Year-Old Unpatched Java Deserialization Vulnerability"](https://bishopfox.com/blog/gwt-unpatched-unauthenticated-java-deserialization-vulnerability).
 
 # Running the web application
 
